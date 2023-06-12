@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset.">
+  <meta name="keywords" content="SMPLX, Diffusion, Character Animation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- <h4 class="title conference-title is-4">NeurIPS 2023</h4> -->
+            <h2 class="title is-2 publication-title">Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset</h2>
+            <div class="is-size-5 publication-authors">
+              <!-- <span class="author-block">
+                <a href="https://scholar.google.com.hk/citations?user=SvaU2GMAAAAJ&hl=zh-CN">Jing Lin</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://ailingzeng.site/">Ailing Zeng</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.sigs.tsinghua.edu.cn/whq_en/main.htm">Haoqian Wang</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.leizhang.org/">Lei Zhang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://yu-li.github.io/">Yu Li</a><sup>1</sup>
+              </span> -->
+              <span class="author-block"></span>
+                <a>Anonymous Authors</a>
+              </span>
+
+            </div>
+
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>International Digital Economy Academy (IDEA),</span>
+              <span class="author-block"><sup>2</sup>Shenzhen International Graduate School, Tsinghua University</span>
+            </div> -->
+
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                <a href="http://arxiv.org/abs/2303.16160" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+                <!-- <span class="link-block">
+                  <a href="http://arxiv.org/abs/2303.16160" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+                <!-- Video Link. -->
+                <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=s0cG3OVXQUo&t=2s" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://motion-x-dataset.github.io/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://drive.google.com/file/d/1QZ5_eA_BDJVuTJAlIR2o9RoUnjrVPXSx/view?usp=drive_link" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h3 class="title is-3 has-text-centered">Video</h3>
+        <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
+        <p align="middle">
+          
+          <video id="myVideo" src="./static/videos/v1.mp4" controls></video>
+
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h5 class="subtitle is-5">
+        <b>Motion-X</b> is a large-scale 3D expressive whole-body motion dataset, which comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) covering 96K motion sequences from massive scenes.
+        </h5>
+        <img src="./static/images/teaser.png" autoplay muted loop playsinline height="100%">
+      </div>
+    </div>
+  </section>
+
+  <p style="margin-bottom: -1.5cm;"></p>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              we propose <b>Motion-X</b>, a large-scale 3D expressive whole-body motion dataset. 
+
+      
+            </p>
+            <p>
+              Existing motion datasets predominantly contain body-only poses, lacking facial expressions, hand gestures, and fine-grained pose descriptions. 
+              Moreover, they are primarily collected from limited laboratory scenes with textual descriptions manually labeled, limiting their scalability.
+              To overcome these limitations, we develop a whole-body motion and text annotation pipeline, which can automatically annotate motion from either single- or multi-view videos 
+              and provide comprehensive semantic labels for each video and fine-grained whole-body pose descriptions for each frame. 
+              This pipeline is of high precision, cost-effective, and scalable for further research. 
+            </p>
+            <p>
+              Based on it, we construct <b>Motion-X</b>, which comprises <b>13.7M</b> precise 3D whole-body <b>pose annotations</b>(i.e., SMPL-X) covering <b>96K</b> motion sequences from massive scenes. 
+              Besides, Motion-X provides <b>13.7M frame-level</b> whole-body pose descriptions and <b>96K sequence-level</b> semantic labels.
+            </p>
+            <p>
+              Comprehensive experiments demonstrate the accuracy of the annotation pipeline and the significant benefit of Motion-X in enhancing expressive, diverse, and natural motion generation, as well as the 3D whole-body human mesh recovery task.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+  <p style="margin-bottom: -0.5cm;"></p>
+
+  <!-- <section class="hero">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <h3 class="title is-3">Comparisons with Other Methods</h3>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item agora_1">
+            <img src="./static/images/agora_1.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item agora_2">
+            <img src="./static/images/agora_2.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item agora_3">
+            <img src="./static/images/agora_3.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item agora_4">
+            <img src="./static/images/agora_4.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item agora_5">
+            <img src="./static/images/agora_5.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ehf_1">
+            <img src="./static/images/ehf_1.png" class="interpolation-image" alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ehf_2">
+            <img src="./static/images/ehf_2.png" class="interpolation-image" alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ehf_3">
+            <img src="./static/images/ehf_3.png" class="interpolation-image" alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ehf_4">
+            <img src="./static/images/ehf_4.png" class="interpolation-image" alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ubody_1">
+            <img src="./static/images/ubody_1.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ubody_2">
+            <img src="./static/images/ubody_2.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ubody_3">
+            <img src="./static/images/ubody_3.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ubody_4">
+            <img src="./static/images/ubody_4.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+          <div class="item ubody_5">
+            <img src="./static/images/ubody_5.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          </div>
+
+
+        </div>
+        <h2 class="subtitle has-text-centered">
+          From left to right: 1. Input, 2. ExPose, 3. Hand4Whoe, 4. OSX (Ours)
+        </h2>
+      </div>
+    </div>
+  </section> -->
+
+  
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h3 class="title is-3 has-text-centered">Motion-X Dataset</h3>
+        <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
+        <p align="middle">
+          <img src="./static/images/demo.png" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Overview of Motion-X. It includes: (a) diverse facial expressions extracted from BAUM,<br> 
+          (b) indoor motion with expressive face and hand motions,<br> 
+          (c) outdoor motion with diverse and challenging poses, and<br> 
+          (d) several motion sequences. 
+        </h2>
+
+        <p style="margin-bottom: 1cm;"></p>
+        <h3 class="title is-3 has-text-centered">Motion Annotation Pipeline</h3>
+        <p align="middle">
+          <img src="./static/images/Anno_all.png" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          General Annotation Pipeline. 
+        </h2>
+
+        <p align="middle">
+          <img src="./static/images/Motion_Ann.png" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Motion Annotation Pipeline. 
+        </h2>
+
+        <p align="middle">
+          <img src="./static/images/text_ann.png" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Text Annotation Pipeline. 
+        </h2>
+        <!-- <h2 class="subtitle has-text-centered">
+          UBody dataset. From left to right: 1. Input, 2. ExPose, 3. Hand4Whoe, 4. OSX (Ours)
+        </h2> -->
+        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/demo_video.gif" type="video/mp4">
+        </video> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h3 class="title is-3 has-text-centered">UBody Dataset</h3>
+        <h5 class="subtitle is-5">
+          UBody is a large-scale Upper-Body dataset with the following annotations: 
+          <style>
+            ul {
+              list-style-type: circle;
+            }
+          </style>
+          <ul>
+            <li>2D whole-body keypoints</li>
+            <li>3D SMPLX annotations</li>
+            <li>frame validity label </li>
+            <li>person bbox, hand bbox </li>
+          </ul>
+        </h5>
+        <p align="middle">
+          <img src="./static/videos/demo_video.gif" width="720" height="240">
+        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/demo_video.gif" type="video/mp4">
+        </video> -->
+      </div>
+    </div>
+  </section> -->
+
+  <p style="margin-bottom: -0.5cm;"></p>
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h3 class="title is-3 has-text-centered">Examples in Motion-X</h3>
+        <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
+        <p align="middle">
+          <img src="./static/videos/conductmusic.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          ConductMusic
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/conference.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Conference
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/entertainment.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Entertainment
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/fitness.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Fitness
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/interview.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Interview
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/livevlog.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          LiveVlog
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/magicshow.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          MagicShow
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/movie.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Movie
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/olympic.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Olympic
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/onlineclass.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          OnlineClass
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/signlanguage.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          SignLanguage
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/singing.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Singing
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/speech.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          Speech
+        </h2>
+
+        <p align="middle">
+          <img src="./static/videos/tvshow.gif" width="720" height="240">
+        </p>
+        <h2 class="subtitle has-text-centered">
+          TVShow
+        </h2>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+    <source src="./static/videos/demo_video.gif" type="video/mp4">
+  </video> -->
+
+
+
+  <!-- <p style="margin-bottom: -1.5cm;"></p>
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content is-size-6">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{lin2023osx,
+  author    = {Lin, Jing and Zeng, Ailing and Wang, Haoqian and Zhang, Lei and Li, Yu},
+  title     = {One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer},
+  journal   = {CVPR},
+  year      = {2023},
+}</code></pre>
+<h2 class="title">Contact Us</h2>
+<style>
+  ul {
+    list-style-type: circle;
+  }
+</style>
+<ul>
+  <li>For detailed questions about this work, please contact Jing Lin (jinglin.stu@gmail.com).</li>
+  <li>We are looking for talented, motivated, and creative research and engineering interns working on human-centric visual understanding and generation topics. If you are interested, please send your CV to Ailing Zeng (zengailing@idea.edu.cn).</li>
+</ul>
+    </div>
+  </section> -->
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-size-6">
+          <div class="content">
+            <p>
+              This website is created with this <a href="https://nerfies.github.io/">template</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
