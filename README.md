@@ -15,7 +15,7 @@ This repository contains the implementation of the following paper:
   1. [General Description](#general-description)
   2. [Dataset Download](#dataset-download)
   3. [Experiments](#experiments)
-  5. [Citing Motion-X](#citing-human-art)
+  5. [Citing](#citing)
 
 ## General Description
 
@@ -175,7 +175,7 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
 <br>
 </p>
 
-## Reference  
+## Citing  
 
 If you find this repository useful for your work, please consider citing it as follows:
 
