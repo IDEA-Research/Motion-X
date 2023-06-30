@@ -1,5 +1,5 @@
 # **Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset**
-### [Project Page](https://motion-x-dataset.github.io/) | [Video](https://www.youtube.com/watch?v=s0cG3OVXQUo&t=2s) | [Paper](https://motion-x-dataset.github.io/) | [Data](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform)
+### [Project Page](https://motion-x-dataset.github.io/) | [Video](https://motion-x-dataset.github.io/) | [Paper](https://motion-x-dataset.github.io/) | [Data](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform)
 This repository contains the implementation of the following paper:
 > Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://github.com/linjing7)<sup>∗12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>∗1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>∗3</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
 > <sup>∗</sup> Equal contribution <sup>1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
