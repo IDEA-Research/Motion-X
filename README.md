@@ -101,21 +101,21 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
       <td><a href="https://grab.is.tue.mpg.de/" target="_blank">grab.is.tue.mpg.de</a></td>
     </tr>
     <tr>
-      <th>EgoBody</th>
+      <th><b>EgoBody</b></th>
       <td>1.0K</td>
       <td>0.4M</td>
       <td><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti.github.io</a></td>
     </tr>
     <tr></tr>
     <tr>
-      <th>BAUM</th>
+      <th><b>BAUM</b></th>
       <td>1.4K</td>
       <td>0.2M</td>
       <td><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza.marmara.edu.tr</a></td>
     </tr>
     <tr></tr>
     <tr>
-      <th>Online Videos</th>
+      <th><b>Online Videos</b></th>
       <td>15K</td>
       <td>3.4M</td>
       <td>YouTube</td>
