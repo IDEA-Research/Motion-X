@@ -108,7 +108,6 @@ We propose a high-accuracy and efficient annotation pipeline and build a large-s
       <td>0.2M</td>
       <td><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza.marmara.edu.tr</a></td>
     </tr>
-    <tr></tr>
     <tr>
       <td><b>Online Videos</b></td>
       <td>15K</td>
