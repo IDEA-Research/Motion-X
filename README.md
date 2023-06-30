@@ -155,14 +155,14 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
 
 ## Experiments  
 #### Accuracy of the motion annotation pipelines
-<img src="/Users/linjing/Library/Application Support/typora-user-images/image-20230630200706466.png" alt="image-20230630200706466" style="zoom: 33%;" />
+<img src="assets/motion_annot_exp.png" alt="image-20230630200706466" style="zoom: 33%;" />
 
 #### Text-driven Whole-body Human Motion Generation
-<img src="/Users/linjing/Library/Application Support/typora-user-images/image-20230630200813169.png" alt="image-20230630200813169" style="zoom: 33%;" />
+<img src="assets/motion_generation_exp.png" alt="image-20230630200813169" style="zoom: 33%;" />
 
 #### 3D Whole-Body Human Mesh Recovery
 
-<img src="/Users/linjing/Library/Application Support/typora-user-images/image-20230630200916025.png" alt="image-20230630200916025" style="zoom:33%;" />
+<img src="assets/mesh_recovery_exp.png" alt="image-20230630200916025" style="zoom:33%;" />
 
 ## Reference  
 
