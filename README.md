@@ -155,14 +155,25 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
 
 ## Experiments  
 #### Accuracy of the motion annotation pipelines
-<img src="assets/motion_annot_exp.png" alt="image-20230630200706466" style="zoom: 33%;" />
+
+<p align="middle">
+<img src="assets/motion_annot_exp.png" width=70%">
+<br>
+</p>
 
 #### Text-driven Whole-body Human Motion Generation
-<img src="assets/motion_generation_exp.png" alt="image-20230630200813169" style="zoom: 33%;" />
+
+<p align="middle">
+<img src="assets/motion_generation_exp.png" width=70%">
+<br>
+</p>
 
 #### 3D Whole-Body Human Mesh Recovery
 
-<img src="assets/mesh_recovery_exp.png" alt="image-20230630200916025" style="zoom:33%;" />
+<p align="middle">
+<img src="assets/mesh_recovery_exp.png" width=40%">
+<br>
+</p>
 
 ## Reference  
 
