@@ -7,7 +7,7 @@ This repository contains the implementation of the following paper:
 <p align="middle">
 <img src="assets/overview.gif" width="100%">
 <br>
-<em>Overview of the proposed Motion-X dataset</em>
+<em>Motion samples from our dataset</em>
 </p>
 
 **Table of Contents**
@@ -19,26 +19,20 @@ This repository contains the implementation of the following paper:
 
 ## General Description
 
-We propose a systematic annotation pipeline and build a large-scale 3D expressive whole-body human motion dataset from massive online videos and eight existing motion sub-datasets. We unifies them into the same formats, providing whole-body motion (i.e., SMPL-X) and corresponding text labels.
+We propose a high-accuracy and efficient annotation pipeline and build a large-scale 3D expressive whole-body human motion dataset from massive online videos and eight existing motion sub-datasets. We unifies them into the same formats, providing whole-body motion (i.e., SMPL-X) and corresponding text labels.
 
-**Contents Motion-X:** 
+**Lables from Motion-X:** 
 
 - Motion label: including `13.7M` whole-body poses and `96K` motion clips annotation, represented as SMPL-X parameters. 
+- Text label: `13.7M` frame-level whole-body pose description and `96K` sequence-level semantic lables
+- Other Modalities: RGB images, audio
 
-- Text label: `13.7M` frame-level pose description and `96K` sequence-level semantic lables
-
-- Other labels: RGB images, audio
-
-- A high-accuracy and efficient  whole-body human motion-text annotation pipeline
-
-
-**Tasks that Motion-X targets for:**
+**Supported Tasks:**
 
 - Text-driven 3d whole-body human motion genetaion
-  - Notably, model pretrained with Motion-X  raise 0.04 R-Precision and decline 0.58 FID  on HumanML3D testset, indicating that Motion-X may benefit the performance on existing dataset.
 
-- 3D whoe-body human mesh recovery
-- Motion pretraining, large motion model, etc.
+- 3D whole-body human mesh recovery
+- Motion pretraining, multi-modality pretrained models for motion understanding and generation, etc.
 
 <p align="middle">
 <img src="assets/cross_the_single_plank_bridge_.gif" width="100%">
@@ -100,6 +94,7 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
       <td>1.6M</td>
       <td><a href="https://grab.is.tue.mpg.de/" target="_blank">grab.is.tue.mpg.de</a></td>
     </tr>
+    <tr></tr>
     <tr>
       <td><b>EgoBody</b></td>
       <td>1.0K</td>
@@ -119,6 +114,14 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
       <td>15K</td>
       <td>3.4M</td>
       <td>YouTube</td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr style="background-color: lightgray;">
+      <td><b>Motion-X (Ours)</b></td>
+      <td>96K</td>
+      <td>13.7M</td>
+      <td><a href="https://motion-x-dataset.github.io/" target="_blank">motion-x-dataset</a></td>
     </tr>
   </table>
   </div>
@@ -154,17 +157,24 @@ We propose a systematic annotation pipeline and build a large-scale 3D expressiv
   ```
 
 ## Experiments  
-#### Accuracy of the motion annotation pipelines
+#### Accuracy of the motion annotation pipeline
 
 <p align="middle">
 <img src="assets/motion_annot_exp.png" width=80%">
 <br>
 </p>
 
-#### Text-driven Whole-body Human Motion Generation
+#### Benchmarking Text-driven Whole-body Human Motion Generation
 
 <p align="middle">
 <img src="assets/motion_generation_exp.png" width=80%">
+<br>
+</p>
+
+#### Comparison with HumanML3D on Whole-body Human Motion Generation Task
+
+<p align="middle">
+<img src="assets/humanml_comp_exp.png" width=80%">
 <br>
 </p>
 
