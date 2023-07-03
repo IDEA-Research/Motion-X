@@ -1,8 +1,9 @@
 # **Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset**
-### [Project Page](https://motion-x-dataset.github.io/) | [Video](https://motion-x-dataset.github.io/) | [Paper](https://motion-x-dataset.github.io/) | [Data](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform)
+### [Project Page](https://motion-x-dataset.github.io/) | [Paper](https://motion-x-dataset.github.io/) | [Data](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) (coming soon!)
 This repository contains the implementation of the following paper:
 > Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://github.com/linjing7)<sup>∗12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>∗1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>∗3</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
-> <sup>∗</sup> Equal contribution <sup>1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
+> <sup>∗</sup> Equal contribution. <sup>
+1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
 <p align="middle">
 <img src="assets/overview.gif" width="100%">
@@ -19,20 +20,19 @@ This repository contains the implementation of the following paper:
 
 ## General Description
 
-We propose a high-accuracy and efficient annotation pipeline and build a large-scale 3D expressive whole-body human motion dataset from massive online videos and eight existing motion sub-datasets. We unifies them into the same formats, providing whole-body motion (i.e., SMPL-X) and corresponding text labels.
+We propose a high-accuracy and efficient annotation pipeline for whole-body motions and the corresponding text labels. Based on it, we build a large-scale 3D expressive whole-body human motion dataset from massive online videos and eight existing motion datasets. We unify them into the same formats, providing whole-body motion (i.e., SMPL-X) and corresponding text labels.
 
-**Lables from Motion-X:** 
+**Labels from Motion-X:** 
 
 - Motion label: including `13.7M` whole-body poses and `96K` motion clips annotation, represented as SMPL-X parameters. 
-- Text label: `13.7M` frame-level whole-body pose description and `96K` sequence-level semantic lables
-- Other Modalities: RGB images, audio
+- Text label: (1) `13.7M` frame-level whole-body pose description and (2) `96K` sequence-level semantic labels.
+- Other modalities: RGB videos, audio, and music information.
 
 **Supported Tasks:**
 
-- Text-driven 3d whole-body human motion genetaion
-
+- Text-driven 3d whole-body human motion generation
 - 3D whole-body human mesh recovery
-- Motion pretraining, multi-modality pretrained models for motion understanding and generation, etc.
+- Others: Motion pretraining, multi-modality pre-trained models for motion understanding and generation, etc.
 
 <p align="middle">
 <img src="assets/cross_the_single_plank_bridge_.gif" width="100%">
@@ -40,9 +40,9 @@ We propose a high-accuracy and efficient annotation pipeline and build a large-s
 <em>Example of the RGB video and annotated motion, RGB video is from this <a href="https://www.xiaohongshu.com/user/profile/5ec2aac700000000010059c0/618e6c7f000000000102e60b">website</a></em>
 </p>
 
-## Dataset Download  
+## Dataset Download
 
-* Although we re-annotate the lables of the sub-dataset with our annotation pipeline, to aviod license conflict, we only provide our annotated result to the users with the approvals from the original institutions. Please follow each link separately and request the given subset. 
+* Although we re-annotate the labels of the sub-dataset with our annotation pipeline, to avoid license conflict, we only provide our annotated results to the users with the approvals from the original institutions. Please follow each link separately, request, and cite the given datasets. 
 
   <div align="center">
   <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
@@ -157,8 +157,9 @@ We propose a high-accuracy and efficient annotation pipeline and build a large-s
   ```
 
 ## Experiments  
-#### Accuracy of the motion annotation pipeline
+#### Validation of the motion annotation pipeline
 
+Our annotation pipeline significantly surpasses existing SOTA 2D whole-body models and mesh recovery methods.
 <p align="middle">
 <img src="assets/motion_annot_exp.png" width=80%">
 <br>
@@ -178,7 +179,7 @@ We propose a high-accuracy and efficient annotation pipeline and build a large-s
 <br>
 </p>
 
-#### 3D Whole-Body Human Mesh Recovery
+#### Impact on 3D Whole-Body Human Mesh Recovery
 
 <p align="middle">
 <img src="assets/mesh_recovery_exp.png" width=50%">
@@ -190,10 +191,10 @@ We propose a high-accuracy and efficient annotation pipeline and build a large-s
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```  
-@article{lin2023one,
-  title={One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer},
-  author={Lin, Jing and Zeng, Ailing and Wang, Haoqian and Zhang, Lei and Li, Yu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023},
+@article{lin2023motionx,
+  title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
+  author={Lin, Jing and Zeng, Ailing and Lu, Shunlin and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
+  journal={arXiv preprint arXiv: },
+  year={2023}
 }
 ```
