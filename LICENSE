@@ -1,20 +1,8 @@
-License
-Data & Software Copyright License for non-commercial scientific research purposes
+License for Non-commercial Scientific Research Purposes
 
-Motion-X: A large-scale 3D expressive whole-body human motion dataset (hereinafter "Motion-X") is a versatile human-centric dataset, to fill in the lack of whole-body text-motion data and facilitate the development of whole-body motion generation. Specifically, Motion-X comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) covering 96K motion sequences from massive scenes, meanwhile providing corresponding semantic labels and pose descriptions.
+Any other use, in particular any use for commercial, pornographic, military, or surveillance, purposes is prohibited.  
 
-Notwithstanding the disclosure of Motion-X and any material pertaining to this dataset (including all the video clips), all copyrights are maintained by and remained proprietary property of the authors and/or the copyright holders. You may use the dataset by ways in compliance with all applicable laws and regulations.  
+Text and visualization results are owned by International Digital Economy Academy (IDEA).
 
-The annotations in Motion-X are licensed under the Attribution-Non Commercial-Share Alike 4.0 International License (CC-BY-NC-SA 4.0)
+The original RGB video (left-top part in Figure 1) is from online source. When reproducing this video, please indicate the original source: https://www.xiaohongshu.com/explore/618e6c7f000000000102e60b.
 
-You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-To view a copy of this license, visit:
-https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
-OR
-https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans (Chinese)
-With this free CC-license, we want to encourage the adoption and use of Motion-X and related annotations.
-Attribution for Publications with Motion-X
-You agree to cite the most recent paper describing the model as specified on the download website: https://motion-x-dataset.github.io. This website lists the most up-to-date bibliographic information.
-
-Attribution for Media Projects with Motion-X
-When using Motion-X in a media project please give credit to IDEA. For example: “Motion-X was used for mesh recovery courtesy of The International Digital Economy Academy (IDEA).”
