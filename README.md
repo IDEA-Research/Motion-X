@@ -34,11 +34,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 - 3D whole-body human mesh recovery
 - Others: Motion pretraining, multi-modality pre-trained models for motion understanding and generation, etc.
 
-<p align="middle">
-<img src="assets/cross_the_single_plank_bridge_.gif" width="100%">
-<br>
-<em>Example of the RGB video and annotated motion, RGB video is from this <a href="https://www.xiaohongshu.com/user/profile/5ec2aac700000000010059c0/618e6c7f000000000102e60b">website</a></em>
-</p>
 
 ## Dataset Download
 
