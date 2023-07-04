@@ -1,3 +1,6 @@
+License
+Data & Software Copyright License for non-commercial scientific research purposes
+
 Motion-X: A large-scale 3D expressive whole-body human motion dataset (hereinafter "Motion-X") is a versatile human-centric dataset, to fill in the lack of whole-body text-motion data and facilitate the development of whole-body motion generation. Specifically, Motion-X comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) covering 96K motion sequences from massive scenes, meanwhile providing corresponding semantic labels and pose descriptions.
 
 Notwithstanding the disclosure of Motion-X and any material pertaining to this dataset (including all the video clips), all copyrights are maintained by and remained proprietary property of the authors and/or the copyright holders. You may use the dataset by ways in compliance with all applicable laws and regulations.  
