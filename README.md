@@ -153,9 +153,9 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   
   # read text labels
   semantic_text = np.loadtxt('texts/semantic_texts/000001.npy')     # semantic labels 
-  body_text = np.loadtxt('texts/body_texts/000001.npy')     # body pose description
-  hand_text = np.loadtxt('texts/hand_texts/000001.npy')     # hand pose description
-  face_text = np.loadtxt('texts/face_texts/000001.npy')     # facial expression
+  body_text = np.loadtxt('texts/body_texts/000001.txt')     # body pose description
+  hand_text = np.loadtxt('texts/hand_texts/000001.txt')     # hand pose description
+  face_text = np.loadtxt('texts/face_texts/000001.txt')     # facial expression
   ```
 
 ## Experiments  
