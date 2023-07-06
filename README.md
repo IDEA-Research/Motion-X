@@ -46,26 +46,19 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 * Although we re-annotate the labels of the sub-dataset with our annotation pipeline, to avoid license conflict, we only provide our annotated results to the users with the approvals from the original institutions. Please follow each link separately, request, and cite the given datasets. 
 
-  <style>
-    .center-align {
-      text-align: center;
-    }
-  </style>
   <div align="center">
   <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
     <tr>
       <th>Dataset</th>
-      <th>Clip <br> Number</th>
-      <th>Frame <br> Number</th>
-      <th>    Motion Labels <br> Body, Hand, Face </td>
-      <th>Website</th>
+      <th>Clip Number</th>
+      <th>Frame Number</th>
+      <th>Source</th>
     </tr>
     <tr></tr>
     <tr>
-      <td class="center-align"><b>AMASS</b></td>
-      <td class="center-align">26K</td>
-      <td class="center-align">3.5M</td>
-      <td><a href="https://amass.is.tue.mpg.de/" target="_blank">MPI</a>, <a href="https://amass.is.tue.mpg.de/" target="_blank">MPI</a>, Ours</td>
+      <td><b>AMASS</b></td>
+      <td>26K</td>
+      <td>3.5M</td>
       <td><a href="https://amass.is.tue.mpg.de/" target="_blank">amass.is.tue.mpg.de</a></td>
     </tr>
     <tr></tr>
@@ -73,7 +66,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>NTU-RGBD120</b></td>
       <td>38K</td>
       <td>2.6M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">rose1.ntu.edu.sg</a></td>
     </tr>
     <tr></tr>
@@ -81,7 +73,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>AIST++</b></td>
       <td>1.4K</td>
       <td>1.1M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aistplusplus_dataset</a></td>
     </tr>
     <tr></tr>
@@ -89,7 +80,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>HAA500</b></td>
       <td>9.9K</td>
       <td>0.6M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://www.cse.ust.hk/haa/" target="_blank">www.cse.ust.hk</a></td>
     </tr>
     <tr></tr>
@@ -97,7 +87,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>HuMMan</b></td>
       <td>0.9K</td>
       <td>0.2M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan</a></td>
     </tr>
     <tr></tr>
@@ -105,7 +94,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>GRAB</b></td>
       <td>1.3K</td>
       <td>1.6M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://grab.is.tue.mpg.de/" target="_blank">grab.is.tue.mpg.de</a></td>
     </tr>
     <tr></tr>
@@ -113,7 +101,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>EgoBody</b></td>
       <td>1.0K</td>
       <td>0.4M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti.github.io</a></td>
     </tr>
     <tr></tr>
@@ -121,7 +108,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>BAUM</b></td>
       <td>1.4K</td>
       <td>0.2M</td>
-      <td>MPI, MPI, Ours</td>
       <td><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza.marmara.edu.tr</a></td>
     </tr>
     <tr></tr>
@@ -129,7 +115,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
       <td><b>Online Videos</b></td>
       <td>15K</td>
       <td>3.4M</td>
-      <td>MPI, MPI, Ours</td>
       <td>YouTube</td>
     </tr>
     <tr></tr>
