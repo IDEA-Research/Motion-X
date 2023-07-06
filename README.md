@@ -61,8 +61,11 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <th align="center">Dataset</th>
     <th align="center">Clip <br> Number</th>
     <th align="center">Frame <br> Number</th>
-    <th align="center">    Motion Labels: <br> Body, Hand, Face </td>
-  	<th align="center">    Text Labels: <br> Semantic, Pose </td>
+    <th align="center"> Body <br> Motion </td>
+  	<th align="center"> Hand <br> Motion </td>
+  	<th align="center"> Facial <br> Motion </td>
+		<th align="center"> Semantic <br> Text </td>
+  	<th align="center"> Pose <br> Text </td>
     <th align="center">Website</th>
   </tr>
   <tr></tr>
@@ -70,8 +73,11 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>AMASS</b></td>
     <td align="center">26K</td>
     <td align="center">3.5M</td>
-    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a>, <a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a>, Ours</td>
-    <td align="center"><a href="https://github.com/EricGuo5513/HumanML3D" target="_blank">HumanML3D</a>, Ours</td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a></td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a></td>
+    <td align="center">Ours</td>
+    <td align="center"><a href="https://github.com/EricGuo5513/HumanML3D" target="_blank">HumanML3D</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">amass</a></td>
   </tr>
   <tr></tr>
@@ -79,8 +85,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>NTU-RGBD120</b></td>
     <td align="center">38K</td>
     <td align="center">2.6M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">NTU</a>, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">NTU</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">rose1</a></td>
   </tr>
   <tr></tr>
@@ -88,8 +95,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>AIST++</b></td>
     <td align="center">1.4K</td>
     <td align="center">1.1M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++</a>, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aist</a></td>
   </tr>
   <tr></tr>
@@ -97,8 +105,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>HAA500</b></td>
     <td align="center">9.9K</td>
     <td align="center">0.6M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500</a>, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">cse.ust.hk</a></td>
   </tr>
   <tr></tr>
@@ -106,8 +115,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>HuMMan</b></td>
     <td align="center">0.9K</td>
     <td align="center">0.2M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center">Ours, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center">Ours</td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan</a></td>
   </tr>
   <tr></tr>
@@ -115,8 +125,11 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>GRAB</b></td>
     <td align="center">1.3K</td>
     <td align="center">1.6M</td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, <a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, Ours</td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, Ours</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
+    <td align="center">Ours</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">grab</a></td>
   </tr>
   <tr></tr>
@@ -124,8 +137,11 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>EgoBody</b></td>
     <td align="center">1.0K</td>
     <td align="center">0.4M</td>
-    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a>, <a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a>, Ours</td>
-    <td align="center">Ours, Ours</td>
+    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a></td>
+    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a></td>
+    <td align="center">Ours</td>
+    <td align="center">Ours</td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti</a></td>
   </tr>
   <tr></tr>
@@ -133,8 +149,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>BAUM</b></td>
     <td align="center">1.4K</td>
     <td align="center">0.2M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM</a>, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM</a></td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza</a></td>
   </tr>
   <tr></tr>
@@ -142,8 +159,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>Online Videos</b></td>
     <td align="center">15K</td>
     <td align="center">3.4M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center">Ours, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center">Ours</td>
+    <td align="center">Ours</td>
     <td align="center">online</td>
   </tr>
   <tr></tr>
@@ -152,8 +170,9 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>Motion-X (Ours)</b></td>
     <td align="center">96K</td>
     <td align="center">13.7M</td>
-    <td align="center">Ours, Ours, Ours</td>
-    <td align="center">Ours, Ours</td>
+    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
+    <td align="center">Ours</td>
+    <td align="center">Ours</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">motion-x</a></td>
   </tr>
 </table>
