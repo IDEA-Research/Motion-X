@@ -90,7 +90,7 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center">1.1M</td>
     <td align="center">Ours, Ours, Ours</td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++</a>, Ours</td>
-    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aistplusplus_dataset</a></td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aist</a></td>
   </tr>
   <tr></tr>
   <tr>
