@@ -44,95 +44,123 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 ## Dataset Download
 
-* Although we re-annotate the labels of the sub-dataset with our annotation pipeline, to avoid license conflict, we only provide our annotated results to the users with the approvals from the original institutions. Please follow each link separately, request, and cite the given datasets. 
+We hope to disseminate Motion-X in a manner that aligns with the original data sources and complies with the necessary protocols. Here are the instructions:
 
-  <div align="center">
-  <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
-    <tr>
-      <th>Dataset</th>
-      <th>Clip Number</th>
-      <th>Frame Number</th>
-      <th>Source</th>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>AMASS</b></td>
-      <td>26K</td>
-      <td>3.5M</td>
-      <td><a href="https://amass.is.tue.mpg.de/" target="_blank">amass.is.tue.mpg.de</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>NTU-RGBD120</b></td>
-      <td>38K</td>
-      <td>2.6M</td>
-      <td><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">rose1.ntu.edu.sg</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>AIST++</b></td>
-      <td>1.4K</td>
-      <td>1.1M</td>
-      <td><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aistplusplus_dataset</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>HAA500</b></td>
-      <td>9.9K</td>
-      <td>0.6M</td>
-      <td><a href="https://www.cse.ust.hk/haa/" target="_blank">www.cse.ust.hk</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>HuMMan</b></td>
-      <td>0.9K</td>
-      <td>0.2M</td>
-      <td><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>GRAB</b></td>
-      <td>1.3K</td>
-      <td>1.6M</td>
-      <td><a href="https://grab.is.tue.mpg.de/" target="_blank">grab.is.tue.mpg.de</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>EgoBody</b></td>
-      <td>1.0K</td>
-      <td>0.4M</td>
-      <td><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti.github.io</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>BAUM</b></td>
-      <td>1.4K</td>
-      <td>0.2M</td>
-      <td><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza.marmara.edu.tr</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><b>Online Videos</b></td>
-      <td>15K</td>
-      <td>3.4M</td>
-      <td>YouTube</td>
-    </tr>
-    <tr></tr>
-    <tr></tr>
-    <tr style="background-color: lightgray;">
-      <td><b>Motion-X (Ours)</b></td>
-      <td>96K</td>
-      <td>13.7M</td>
-      <td><a href="https://motion-x-dataset.github.io/" target="_blank">motion-x-dataset</a></td>
-    </tr>
-  </table>
-  </div>
+- Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. After you submit the form, an email containing the dataset will be delivered to you as soon as we release the dataset. We plan to release Motion-X by Sept. 2023.
 
-* Collect the confirmations of the eight sub-datasets in a PDF to demonstrate that you have acquired the approvals from the original institutions.
+- For the motion capture datasets (i.e., AMASS, GRAB, EgoBody),
+  - we will not distribute the original motion data. So Please download the originals from the original websites.
+  - We will provide the text labels and facial expressions annotated by our team. 
+- For the other datasets (i.e., NTU-RGBD120, AIST++, HAA500, HuMMan),
+  - please read and acknowledge the licenses and terms of use on the original websites.
+  - Once users have obtained necessary approvals from the original institutions, we will provide the motion and text labels annotated by our team.
 
-* Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes.  After you submit the form, an email containing the dataset will be delivered to you as soon as we release the dataset. We plan to release Motion-X by Sept. 2023.
+<div align="center">
+<table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
+  <tr>
+    <th align="center">Dataset</th>
+    <th align="center">Clip <br> Number</th>
+    <th align="center">Frame <br> Number</th>
+    <th align="center">    Motion Labels <br> Body, Hand, Face </td>
+  	<th align="center">    Text Labels <br> Semantic, Pose </td>
+    <th align="center">Website</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>AMASS</b></td>
+    <td align="center">26K</td>
+    <td align="center">3.5M</td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a>, <a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a>, Ours</td>
+    <td align="center"><a href="https://github.com/EricGuo5513/HumanML3D" target="_blank">HumanML3D</a>, Ours</td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">amass.is.tue.mpg.de</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>NTU-RGBD120</b></td>
+    <td align="center">38K</td>
+    <td align="center">2.6M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">NTU</a>, Ours</td>
+    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">rose1.ntu.edu.sg</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>AIST++</b></td>
+    <td align="center">1.4K</td>
+    <td align="center">1.1M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++</a>, Ours</td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aistplusplus_dataset</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>HAA500</b></td>
+    <td align="center">9.9K</td>
+    <td align="center">0.6M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500</a>, Ours</td>
+    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">www.cse.ust.hk</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>HuMMan</b></td>
+    <td align="center">0.9K</td>
+    <td align="center">0.2M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center">Ours, Ours</td>
+    <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>GRAB</b></td>
+    <td align="center">1.3K</td>
+    <td align="center">1.6M</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, <a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, Ours</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a>, Ours</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">grab.is.tue.mpg.de</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>EgoBody</b></td>
+    <td align="center">1.0K</td>
+    <td align="center">0.4M</td>
+    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a>, <a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a>, Ours</td>
+    <td align="center">Ours, Ours</td>
+    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti.github.io</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>BAUM</b></td>
+    <td align="center">1.4K</td>
+    <td align="center">0.2M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM</a>, Ours</td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza.marmara.edu.tr</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>Online Videos</b></td>
+    <td align="center">15K</td>
+    <td align="center">3.4M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center">Ours, Ours</td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">Youtube</a>, <a href="https://www.bilibili.com/" target="_blank">Bilibili</a>, <a href="https://www.xiaohongshu.com/explore" target="_blank">Xiaohongshu</a></td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr style="background-color: lightgray;">
+    <td align="center"><b>Motion-X (Ours)</b></td>
+    <td align="center">96K</td>
+    <td align="center">13.7M</td>
+    <td align="center">Ours, Ours, Ours</td>
+    <td align="center">Ours, Ours</td>
+    <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">motion-x-dataset</a></td>
+  </tr>
+</table>
+</div>
 
 * To retrieve motion and text labels you can simply do:
+
   ```python
   import numpy as np
   import torch
