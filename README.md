@@ -61,8 +61,8 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <th align="center">Dataset</th>
     <th align="center">Clip <br> Number</th>
     <th align="center">Frame <br> Number</th>
-    <th align="center">    Motion Labels <br> Body, Hand, Face </td>
-  	<th align="center">    Text Labels <br> Semantic, Pose </td>
+    <th align="center">    Motion Labels: <br> Body, Hand, Face </td>
+  	<th align="center">    Text Labels: <br> Semantic, Pose </td>
     <th align="center">Website</th>
   </tr>
   <tr></tr>
