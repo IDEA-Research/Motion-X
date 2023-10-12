@@ -249,7 +249,7 @@ Our annotation pipeline significantly surpasses existing SOTA 2D whole-body mode
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```  
-@article{lin2023motionx,
+@inproce{lin2023motionx,
   title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
   author={Lin, Jing and Zeng, Ailing and Lu, Shunlin and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
   journal={Advances in Neural Information Processing Systems},
