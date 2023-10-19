@@ -2,27 +2,44 @@
 
 ![](./assets/logo.jpg)
 
-### [Project Page](https://motion-x-dataset.github.io/) | [Paper](https://arxiv.org/pdf/2307.00818.pdf) | [Data](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) (coming soon!)
-This repository contains the implementation of the following paper:
-> Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://jinglin7.github.io/)<sup>∗12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>∗1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>∗13</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
-> <sup>∗</sup> Equal contribution. <sup>
-1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
-
-<p align="middle">
-<img src="assets/overview.gif" width="100%">
-<br>
-<em>Figure 1. Motion samples from our dataset</em>
+<p align="center">
+  <a href='https://arxiv.org/abs/2307.00818'>
+    <img src='https://img.shields.io/badge/Arxiv-2307.00818-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://arxiv.org/pdf/2307.00818pdf'>
+    <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
+  </a>
+  <a href='https://motion-x-dataset.github.io'>
+  <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'></a>
+  <a href='https://youtu.be/0a0ZYJgzdWE'>
+  <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a>
+  <a href='https://github.com/IDEA-Research/Motion-X'>
+    <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
+  <a href='LICENSE'>
+    <img src='https://img.shields.io/badge/License-IDEA-blue.svg'>
+  </a>
+  <a href="" target='_blank'>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=IDEA-Research.Motion-X&left_color=gray&right_color=orange">
+  </a>
 </p>
 
+This repository contains the implementation of the following paper:
+> Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎13</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
+> <sup>😎</sup>Equal contribution. <sup>
+1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
-**Table of Contents**
+## 🥳 Highlight Motion Samples
+
+<img src="assets/overview.gif" width="100%">
+
+**📊 Table of Contents**
 
   1. [General Description](#general-description)
   2. [Dataset Download](#dataset-download)
   3. [Experiments](#experiments)
-  5. [Citing](#citing)
+  4. [Citing](#citing)
 
-## General Description
+## 📜 General Description
 
 We propose a high-accuracy and efficient annotation pipeline for whole-body motions and the corresponding text labels. Based on it, we build a large-scale 3D expressive whole-body human motion dataset from massive online videos and eight existing motion datasets. We unify them into the same formats, providing whole-body motion (i.e., SMPL-X) and corresponding text labels.
 
@@ -54,7 +71,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
     <a href="https://www.youtube.com/channel/UCzgkpehSWuFTQx9E8NkBqzw">website3</a></em>
 </p>
 
-## Dataset Download
+## 📥 Dataset Download
 
 We hope to disseminate Motion-X in a manner that aligns with the original data sources and complies with the necessary protocols. Here are the instructions:
 
@@ -217,7 +234,7 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
   face_text = np.loadtxt('texts/face_texts/000001.txt')     # facial expression
   ```
 
-## Experiments  
+## 💻 Experiments  
 #### Validation of the motion annotation pipeline
 
 Our annotation pipeline significantly surpasses existing SOTA 2D whole-body models and mesh recovery methods.
@@ -247,7 +264,7 @@ Our annotation pipeline significantly surpasses existing SOTA 2D whole-body mode
 <br>
 </p>
 
-## Citing  
+## Citation  
 
 If you find this repository useful for your work, please consider citing it as follows:
 
