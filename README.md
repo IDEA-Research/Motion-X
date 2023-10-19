@@ -264,7 +264,7 @@ Our annotation pipeline significantly surpasses existing SOTA 2D whole-body mode
 <br>
 </p>
 
-## Citation  
+## 🤝 Citation  
 
 If you find this repository useful for your work, please consider citing it as follows:
 
