@@ -137,7 +137,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">1.3M</td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Website</a>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Data</a>
   </td>
   </tr>
   <tr></tr>
@@ -147,7 +147,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">1.1M</td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++ Website</a></td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/factsfigures.html" target="_blank">AIST++ License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">AIST++ Data</a>
   </tr>
   <tr></tr>
   <tr>
@@ -156,7 +156,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">0.6M</td>
     <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500 Website</a></td>
     <td align="center"><a href="https://www.cse.ust.hk/haa/index.html" target="_blank">HAA500 License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">HAA500 Data</a>
   </tr>
   <tr></tr>
   <tr>
@@ -165,7 +165,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">0.2M</td>
     <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan Website</a></td>
     <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/license.txt" target="_blank">AMASS</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Humman Data</a>
      </tr>
   <tr></tr>
   <tr>
@@ -174,7 +174,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">0.2M</td>
     <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM Website</a>
     <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">BAUM Data</a>
 </td>
   </tr>
   <tr></tr>
@@ -184,7 +184,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">3.4M</td>
     <td align="center">---</td>
     <td align="center">---</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Online Video Data</a>
   </tr>
   <tr></tr>
   <tr></tr>
@@ -194,7 +194,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">13.7M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">Motion-X Website</a></td>
     <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs/edit" target="_blank">Motion-X License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Motion-X Data</a>
   </tr>
 </table>
 </div>
