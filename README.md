@@ -172,8 +172,8 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center"><b>BAUM</b></td>
     <td align="center">1.4K</td>
     <td align="center">0.2M</td>
-    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM Website</a>
-    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM License</a></td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM<br>Website</a>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM<br>License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">BAUM Data</a>
 </td>
   </tr>
