@@ -73,125 +73,118 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 ## 📥 Dataset Download
 
-We hope to disseminate Motion-X in a manner that aligns with the original data sources and complies with the necessary protocols. Here are the instructions:
+We disseminate Motion-X in a manner that aligns with the original data sources. Here are the instructions:
 
-- Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. After you submit the form, an email containing the dataset will be delivered to you as soon as we release the dataset. We plan to release Motion-X by Sept. 2023.
+### 1. Request Authorization
 
-- For the motion capture datasets (i.e., AMASS, GRAB, EgoBody),
-  - we will not distribute the original motion data. So Please download the originals from the original websites.
-  - We will provide the text labels and facial expressions annotated by our team. 
-- For the other datasets (i.e., NTU-RGBD120, AIST++, HAA500, HuMMan),
-  - please read and acknowledge the licenses and terms of use on the original websites.
-  - Once users have obtained necessary approvals from the original institutions, we will provide the motion and text labels annotated by our team.
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes.
+
+### 2. Non-Mocap Subsets
+
+For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites and then download the data from the provided Google Drive / Baidu Disk link.  Notably:
+
+- We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
+- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this video for a detailed introduction of IDEA-400. 
+
+### 3. Mocap Subsets  
+
+For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link](https://github.com/IDEA-Research/Motion-X/tree/main/mocap-dataset-process) for a detailed instruction, notably:
+
+- We do not distribute the original motion data. 
+- We only provide the text labels and facial expressions annotated by our team. 
 
 <div align="center">
 <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
   <tr>
     <th align="center">Dataset</th>
-    <th align="center">Clip <br> Number</th>
-    <th align="center">Frame <br> Number</th>
-    <th align="center"> Body <br> Motion </td>
-  	<th align="center"> Hand <br> Motion </td>
-  	<th align="center"> Facial <br> Motion </td>
-		<th align="center"> Semantic <br> Text </td>
-  	<th align="center"> Pose <br> Text </td>
+    <th align="center">Clip Number</th>
+    <th align="center">Frame Number</th>
     <th align="center">Website</th>
+    <th align="center">License</th>
+    <th align="center">Label Downloading Link</th>
   </tr>
   <tr></tr>
   <tr>
     <td align="center"><b>AMASS</b></td>
     <td align="center">26K</td>
     <td align="center">3.5M</td>
-    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a></td>
-    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://github.com/EricGuo5513/HumanML3D" target="_blank">HumanML3D</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">amass</a></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center"><b>NTU-RGBD120</b></td>
-    <td align="center">38K</td>
-    <td align="center">2.6M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">NTU</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/" target="_blank">rose1</a></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center"><b>AIST++</b></td>
-    <td align="center">1.4K</td>
-    <td align="center">1.1M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">aist</a></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center"><b>HAA500</b></td>
-    <td align="center">9.9K</td>
-    <td align="center">0.6M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">cse.ust.hk</a></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center"><b>HuMMan</b></td>
-    <td align="center">0.9K</td>
-    <td align="center">0.2M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan</a></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center"><b>GRAB</b></td>
-    <td align="center">1.3K</td>
-    <td align="center">1.6M</td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">grab</a></td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS Website</a></td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/license.html" target="_blank">AMASS License</a></td>
+    <td align="center"><a href="https://amass.is.tue.mpg.de/login.php" target="_blank">AMASS Data</a></td>
   </tr>
   <tr></tr>
   <tr>
     <td align="center"><b>EgoBody</b></td>
     <td align="center">1.0K</td>
     <td align="center">0.4M</td>
-    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a></td>
-    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody</a></td>
-    <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">sanweiliti</a></td>
+    <td align="center"><a href="https://sanweiliti.github.io/egobody/egobody.html" target="_blank">EgoBody Website</a></td>
+    <td align="center"><a href="https://egobody.ethz.ch/" target="_blank">EgoBody License</a></td>
+    <td align="center"><a href="https://egobody.ethz.ch/" target="_blank">EgoBody Data</a></td>
   </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>GRAB</b></td>
+    <td align="center">1.3K</td>
+    <td align="center">1.6M</td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB Website</a></td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/license.html" target="_blank">GRAB License</a></td>
+    <td align="center"><a href="https://grab.is.tue.mpg.de/login.php" target="_blank">GRAB Data</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>IDEA-400</b></td>
+    <td align="center">120K</td>
+    <td align="center">1.3M</td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Website</a>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+  </td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>AIST++</b></td>
+    <td align="center">1.4K</td>
+    <td align="center">1.1M</td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++ Website</a></td>
+    <td align="center"><a href="https://google.github.io/aistplusplus_dataset/factsfigures.html" target="_blank">AIST++ License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>HAA500</b></td>
+    <td align="center">9.9K</td>
+    <td align="center">0.6M</td>
+    <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500 Website</a></td>
+    <td align="center"><a href="https://www.cse.ust.hk/haa/index.html" target="_blank">HAA500 License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><b>HuMMan</b></td>
+    <td align="center">0.9K</td>
+    <td align="center">0.2M</td>
+    <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan Website</a></td>
+    <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/license.txt" target="_blank">AMASS</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+     </tr>
   <tr></tr>
   <tr>
     <td align="center"><b>BAUM</b></td>
     <td align="center">1.4K</td>
     <td align="center">0.2M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM</a></td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">mimoza</a></td>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM Website</a>
+    <td align="center"><a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/" target="_blank">BAUM License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
+</td>
   </tr>
   <tr></tr>
   <tr>
     <td align="center"><b>Online Videos</b></td>
     <td align="center">15K</td>
     <td align="center">3.4M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center">online</td>
+    <td align="center">---</td>
+    <td align="center">---</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
   </tr>
   <tr></tr>
   <tr></tr>
@@ -199,15 +192,17 @@ We hope to disseminate Motion-X in a manner that aligns with the original data s
     <td align="center"><b>Motion-X (Ours)</b></td>
     <td align="center">96K</td>
     <td align="center">13.7M</td>
-    <td align="center">Ours</td> <td align="center">Ours</td> <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center">Ours</td>
-    <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">motion-x</a></td>
+    <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">Motion-X Website</a></td>
+    <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs/edit" target="_blank">Motion-X License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Google Drive</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Baidu Disk</a></td>
   </tr>
 </table>
 </div>
 
-* To retrieve motion and text labels you can simply do:
+### 🚀  Data Loading 
+
+
+* To load the motion and text labels you can simply do:
 
   ```python
   import numpy as np
