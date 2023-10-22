@@ -135,8 +135,8 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center"><b>IDEA-400</b></td>
     <td align="center">120K</td>
     <td align="center">1.3M</td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Website</a>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA400 License</a></td>
+    <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">IDEA400 Website</a>
+    <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs" target="_blank">IDEA400 License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA400 Data</a>
   </td>
   </tr>
@@ -184,7 +184,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">3.4M</td>
     <td align="center">---</td>
     <td align="center">---</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Online Video Data</a>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Online Data</a>
   </tr>
   <tr></tr>
   <tr></tr>
@@ -193,7 +193,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">96K</td>
     <td align="center">13.7M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">Motion-X Website</a></td>
-    <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs/edit" target="_blank">Motion-X License</a></td>
+    <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs" target="_blank">Motion-X License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Motion-X Data</a>
   </tr>
 </table>
