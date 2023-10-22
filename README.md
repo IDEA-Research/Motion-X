@@ -136,8 +136,8 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <td align="center">120K</td>
     <td align="center">1.3M</td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Website</a>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 License</a></td>
-    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA-400 Data</a>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA400 License</a></td>
+    <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA400 Data</a>
   </td>
   </tr>
   <tr></tr>
