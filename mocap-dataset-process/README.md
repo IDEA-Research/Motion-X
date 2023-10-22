@@ -6,7 +6,7 @@
 pip install smplx
 ```
 
-# 🚀 How to prepare Mocap Data --Humanml3D, EgoBody, Mocap?
+# 🚀 How to prepare Mocap Data --Humanml3D, EgoBody, GRAB?
 
 ## 1. Data Preparing
 
@@ -33,12 +33,12 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
 
 <details>
 <summary>Download AMASS motions for Humanml3D.</summary>
-    
+
   - Download [AMASS](https://amass.is.tue.mpg.de/download.php) motions. 
-  - If you are using the SMPL-X (in Motion-X), please download the AMASS data with `SMPL-X G`. If you use the SMPL-X data, please save them at `./datasets/amass_data/`. 
-  
+  - Please download the AMASS data with `SMPL-X G`. If you use the SMPL-X data, please save them at `./datasets/amass_data/`. 
+
   The `datasets/amass_data/` folder tree should be:
-  
+
 ```bash
   ./amass_data/
 
@@ -70,10 +70,10 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
 
 <details>
 <summary>Download Egobody motions.</summary>
-    
+
   - Download [Egobody](https://egobody.ethz.ch/) motions. 
-  - Please obey the Egobody dataset lisence and fill the form to get the download link.
-  
+  - Please obey the Egobody dataset license and fill the form to get the download link.
+
   The `datasets/EgoBody/` folder tree should be:
 ```bash
   ./EgoBody/
@@ -91,10 +91,10 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
 
 <details>
 <summary>Download GRAB motions.</summary>
-    
+
   - Download [GRAB](https://grab.is.tue.mpg.de/download.php) motions. 
-  - Please obey the GRAB dataset lisence.
-  
+  - Please obey the GRAB dataset license.
+
   The `datasets/EgoBody/` folder tree should be:
 
   ```bash
@@ -114,18 +114,14 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
   ```
 </details>   
 
-
-
-    
-
 ## 2. Generate mapping files and text files
 
 In this step, we will process the Mocap datasets.
 
 <details>
 <summary>Process HumanML3D Dataset</summary>
-    
-Download `texts.zip` file. [HumanML3D](https://github.com/EricGuo5513/HumanML3D) repo.
+
+Download `texts.zip` from [HumanML3D](https://github.com/EricGuo5513/HumanML3D) repo.
 
 ```bash
 python humanml.py
@@ -135,17 +131,18 @@ python humanml.py
 
 <details>
 <summary>Process EgoBody Dataset</summary>
-    
-The manual text annotation of Egobody dataset is provided at `egobody_description_all.csv`.
+
+The manually annotated text labels of Egobody dataset is provided at `egobody_description_all.csv`.
 
 ```bash
 python egobody.py
 ```
 </details>    
     
+
 <details>
 <summary>Process GRAB Dataset</summary>
-    
+
 ```bash
 python grab.py
 ```
@@ -154,7 +151,30 @@ python grab.py
 
 # 🤝🏼 Citation
 
-If you use this three Mocap datasets for research, you need to cite them seperately: 
+If you use these three Mocap datasets for research, you need to cite them separately: 
+
+AMASS:
+
+```
+@inproceedings{mahmood2019amass,
+  title={AMASS: Archive of motion capture as surface shapes},
+  author={Mahmood, Naureen and Ghorbani, Nima and Troje, Nikolaus F and Pons-Moll, Gerard and Black, Michael J},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={5442--5451},
+  year={2019}
+} 
+```
+
+```bash
+@InProceedings{Guo_2022_CVPR,
+    author    = {Guo, Chuan and Zou, Shihao and Zuo, Xinxin and Wang, Sen and Ji, Wei and Li, Xingyu and Cheng, Li},
+    title     = {Generating Diverse and Natural 3D Human Motions From Text},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {5152-5161}
+}
+```
 
 Humanml3D: 
 ```bash
@@ -199,4 +219,4 @@ EgoBody dataset:
 ```
 
 
-If you have any question, please contact at Shunlin Lu (shunlinlu0803 [AT] gamil [DOT] com).
+If you have any questions, please contact Shunlin Lu (shunlinlu0803 [AT] gmail [DOT] com).
