@@ -165,17 +165,6 @@ AMASS:
 } 
 ```
 
-```bash
-@InProceedings{Guo_2022_CVPR,
-    author    = {Guo, Chuan and Zou, Shihao and Zuo, Xinxin and Wang, Sen and Ji, Wei and Li, Xingyu and Cheng, Li},
-    title     = {Generating Diverse and Natural 3D Human Motions From Text},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {5152-5161}
-}
-```
-
 Humanml3D: 
 ```bash
 @InProceedings{Guo_2022_CVPR,
@@ -220,3 +209,4 @@ EgoBody dataset:
 
 
 If you have any questions, please contact Shunlin Lu (shunlinlu0803 [AT] gmail [DOT] com).
+
