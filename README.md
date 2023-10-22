@@ -101,7 +101,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
     <th align="center">Frame Number</th>
     <th align="center">Website</th>
     <th align="center">License</th>
-    <th align="center">Label Downloading Link</th>
+    <th align="center">Downloading Link</th>
   </tr>
   <tr></tr>
   <tr>
