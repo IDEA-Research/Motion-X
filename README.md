@@ -199,6 +199,33 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
 </table>
 </div>
 
+- Finally, the `dataset` is collected as the following directory structure:
+
+```  
+${ROOT}  
+|-- dataset  
+|   |-- motion_data
+|   |   |-- HumanML3D
+|   |   |   |-- 000001.npy
+|   |   |-- EgoBody
+|   |   |   |-- 000001.npy
+|   |   |-- GRAB
+|   |   |   |-- 000001.npy
+|   |   |-- IDEA_400
+|   |   |   |-- 000001.npy
+|   |   |-- ......
+|   |-- text_data
+|   |   |-- semantic_labels
+|   |   |   |-- HumanML3D
+|   |   |   |		|-- 000001.txt
+|   |   |   |-- EgoBody
+|   |   |   |		|-- 000001.txt
+|   |   |   |-- GRAB
+|   |   |   |		|-- 000001.txt
+|   |   |   |-- IDEA_400
+|   |   |   |		|-- 000001.txt
+```
+
 ### 🚀  Data Loading 
 
 
