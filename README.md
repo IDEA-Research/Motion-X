@@ -56,42 +56,11 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 - Others: Motion pretraining, multi-modality pre-trained models for motion understanding and generation, etc.
 
 <p align="middle">
-<img src="assets/perform____images____cross_the_single_plank_bridge____cross_the_single_plank_bridge_subset_1.gif" width="100%">
-</p>
-
-<p align="middle">
-<img src="assets/kungfu____images____subset_0____Aerial_Kick_Kungfu_wushu_clip12____Aerial_Kick_Kungfu_wushu_clip12.gif" width="100%">
-<br>
-</p>
-<p align="middle">
 <img src="assets/animation_actions____images____subset_0____Horse_clip1.gif" width="100%">
 <br>
-<em>Figure 2. Example of the RGB video and annotated motion, RGB videos are from: <a href="https://www.xiaohongshu.com/user/profile/5ec2aac700000000010059c0/618e6c7f000000000102e60b">website1</a></em>, 
-  <a href="https://www.patreon.com/mastersongkungfu">website2</a></em>, 
-    <a href="https://www.youtube.com/channel/UCzgkpehSWuFTQx9E8NkBqzw">website3</a></em>
+<em>Figure 2. Example of the RGB video and annotated motion, RGB videos are from: 
+    <a href="https://www.youtube.com/channel/UCzgkpehSWuFTQx9E8NkBqzw">website</a></em>
 </p>
-
-## 📥 Dataset Download
-
-We disseminate Motion-X in a manner that aligns with the original data sources. Here are the instructions:
-
-### 1. Request Authorization
-
-Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes.
-
-### 2. Non-Mocap Subsets
-
-For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites and then download the data from the provided Google Drive / Baidu Disk link.  Notably:
-
-- We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
-- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA-400. 
-
-### 3. Mocap Subsets  
-
-For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link](https://github.com/IDEA-Research/Motion-X/tree/main/mocap-dataset-process) for a detailed instruction, notably:
-
-- We do not distribute the original motion data. 
-- We only provide the text labels and facial expressions annotated by our team. 
 
 <div align="center">
 <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
@@ -199,6 +168,68 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
 </table>
 </div>
 
+## 📥 Dataset Download
+
+We disseminate Motion-X in a manner that aligns with the original data sources. Here are the instructions:
+
+### 1. Request Authorization
+
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided Google Drive or Baidu Disk links.  
+
+<details>
+<summary>Please collect them as the following directory structure: </summary>
+
+```
+${ROOT}  
+|-- dataset  
+|   |-- motion_data
+|   |   |-- IDEA_400
+|   |   |   |-- 000001.npy
+|   |   |-- ......
+|   |-- face_motion_data
+|   |   |-- HumanML3D
+|   |   |   |-- 000001.npy
+|   |   |-- EgoBody
+|   |   |   |-- 000001.npy
+|   |-- text_data
+|   |   |-- semantic_labels
+|   |   |   |-- HumanML3D
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- EgoBody
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- GRAB
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- IDEA_400
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- ......
+|   |   |-- pose_descriptions
+|   |   |   |-- HumanML3D
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- EgoBody
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- GRAB
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- IDEA_400
+|   |   |   |   |-- 000001.txt
+|   |   |   |-- ......
+```
+
+</details>
+
+### 2. Non-Mocap Subsets
+
+For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites.  Notably:
+
+- We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
+- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA-400. 
+
+### 3. Mocap Subsets  
+
+For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link](https://github.com/IDEA-Research/Motion-X/tree/main/mocap-dataset-process) for a detailed instruction, notably:
+
+- We do not distribute the original motion data. 
+- We only provide the text labels and facial expressions annotated by our team. 
+
 <details>
 <summary>Finally, the dataset folder is collected as the following directory structure:</summary>
 
@@ -215,6 +246,11 @@ ${ROOT}
 |   |   |-- IDEA_400
 |   |   |   |-- 000001.npy
 |   |   |-- ......
+|   |-- face_motion_data
+|   |   |-- HumanML3D
+|   |   |   |-- 000001.npy
+|   |   |-- EgoBody
+|   |   |   |-- 000001.npy
 |   |-- text_data
 |   |   |-- semantic_labels
 |   |   |   |-- HumanML3D
