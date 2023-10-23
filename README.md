@@ -218,7 +218,7 @@ ${ROOT}
 
 ### 2. Non-Mocap Subsets
 
-For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites.  Notably:
+For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites, notably:
 
 - We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
 - Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA-400. 
@@ -276,7 +276,7 @@ ${ROOT}
 
 </details>
 
-### 🚀  Data Loading 
+## 🚀  Data Loading 
 
 
 * To load the motion and text labels you can simply do:
