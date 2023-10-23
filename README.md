@@ -214,7 +214,7 @@ ${ROOT}
 For the non-mocap subsets, please read and acknowledge the licenses on the original websites, notably:
 
 - We do not distribute the original RGB videos. We provide the motion and text labels annotated by our team.
-- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a introduction. 
+- Due to license and quality consideration, we do not provide NTU-RGBD120. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction. 
 
 ### 3. Mocap Subsets  
 
