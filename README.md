@@ -200,7 +200,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
 </div>
 
 <details>
-<summary>Finally, the dataset folder is collected as the following directory structure:</summary>
+<summary>Finally, the datasset folder is collected as the following directory structure:</summary>
 
 ```  
 ${ROOT}  
