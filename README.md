@@ -84,7 +84,7 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
 For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites and then download the data from the provided Google Drive / Baidu Disk link.  Notably:
 
 - We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
-- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this video for a detailed introduction of IDEA-400. 
+- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA-400. 
 
 ### 3. Mocap Subsets  
 
@@ -236,6 +236,8 @@ ${ROOT}
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- ......
 ```
+
+</details>
 
 ### 🚀  Data Loading 
 
