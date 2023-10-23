@@ -55,13 +55,6 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 - 3D whole-body human mesh recovery
 - Others: Motion pretraining, multi-modality pre-trained models for motion understanding and generation, etc.
 
-<p align="middle">
-<img src="assets/animation_actions____images____subset_0____Horse_clip1.gif" width="100%">
-<br>
-<em>Figure 2. Example of the RGB video and annotated motion, RGB videos are from: 
-    <a href="https://www.youtube.com/channel/UCzgkpehSWuFTQx9E8NkBqzw">website</a></em>
-</p>
-
 <div align="center">
 <table cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0">
   <tr>
@@ -101,7 +94,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   </tr>
   <tr></tr>
   <tr>
-    <td align="center"><b>IDEA-400</b></td>
+    <td align="center"><b>IDEA400</b></td>
     <td align="center">120K</td>
     <td align="center">1.3M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">IDEA400<br>Website</a>
@@ -183,7 +176,7 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
 ${ROOT}  
 |-- dataset  
 |   |-- motion_data
-|   |   |-- IDEA_400
+|   |   |-- IDEA400
 |   |   |   |-- 000001.npy
 |   |   |-- ......
 |   |-- face_motion_data
@@ -199,7 +192,7 @@ ${ROOT}
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- GRAB
 |   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA_400
+|   |   |   |-- IDEA400
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- ......
 |   |   |-- pose_descriptions
@@ -209,7 +202,7 @@ ${ROOT}
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- GRAB
 |   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA_400
+|   |   |   |-- IDEA400
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- ......
 ```
@@ -221,7 +214,7 @@ ${ROOT}
 For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites, notably:
 
 - We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
-- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA-400, which includes 400 daity actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA-400. 
+- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA400. 
 
 ### 3. Mocap Subsets  
 
@@ -243,7 +236,7 @@ ${ROOT}
 |   |   |   |-- 000001.npy
 |   |   |-- GRAB
 |   |   |   |-- 000001.npy
-|   |   |-- IDEA_400
+|   |   |-- IDEA400
 |   |   |   |-- 000001.npy
 |   |   |-- ......
 |   |-- face_motion_data
@@ -259,7 +252,7 @@ ${ROOT}
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- GRAB
 |   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA_400
+|   |   |   |-- IDEA400
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- ......
 |   |   |-- pose_descriptions
@@ -269,7 +262,7 @@ ${ROOT}
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- GRAB
 |   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA_400
+|   |   |   |-- IDEA400
 |   |   |   |   |-- 000001.txt
 |   |   |   |-- ......
 ```
