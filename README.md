@@ -167,7 +167,7 @@ We disseminate Motion-X in a manner that aligns with the original data sources. 
 
 ### 1. Request Authorization
 
-Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided Google Drive or Baidu Disk links.  
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided downloading links.  
 
 <details>
 <summary>Please collect them as the following directory structure: </summary>
@@ -211,10 +211,10 @@ ${ROOT}
 
 ### 2. Non-Mocap Subsets
 
-For the non-mocap subsets, please read and acknowledge the licenses and terms of use on the original websites, notably:
+For the non-mocap subsets, please read and acknowledge the licenses on the original websites, notably:
 
-- We do not distribute the original RGB videos. We only provide the motion and text labels annotated by our team.
-- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction of IDEA400. 
+- We do not distribute the original RGB videos. We provide the motion and text labels annotated by our team.
+- Due to data license and quality consideration, we do not provide NTU-RGBD120 dataset. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a introduction. 
 
 ### 3. Mocap Subsets  
 
