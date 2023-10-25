@@ -56,16 +56,16 @@ def transform_motions(data):
         pose_root = compute_canonical_transform(torch.from_numpy(pose_root)).detach().cpu().numpy()
         pose_body = data['body']['params']['body_pose'][fId:fId+1]
 
-        ### grab hand pose is 24 * 2 dim (after PCA), which is not compatible with our representation, thus use zeros here. ####
-        pose_left_hand = np.zeros((1, 45))
-        pose_right_hand = np.zeros((1, 45))
+
+        pose_left_hand = data['lhand']['params']['fullpose'][fId:fId+1]
+        pose_right_hand = data['rhand']['params']['fullpose'][fId:fId+1]
 
 
         pose_jaw = data['body']['params']['jaw_pose'][fId:fId+1]
 
         ####grab expression is 10-dim, so we use zeros
 
-        pose_expression = np.zeros((1, 50))
+        pose_expression =  np.zeros((1, 50))
         pose_face_shape = np.zeros((1, 100))
 
         pose_trans = data['body']['params']['transl'][fId:fId+1]
@@ -93,10 +93,13 @@ def process_text(text):
 
 if __name__ == '__main__':
 
-    for case_path in findAllFile('./GRAB'):
+
+    for case_path in tqdm(findAllFile('./GRAB')):
         data = np.load(case_path, allow_pickle=True)
         data = {k: data[k].item() for k in data.files}
+
         data = transform_motions(data)
+
         text = os.path.basename(case_path).replace('.npz', '')
         text = process_text(text)
 
