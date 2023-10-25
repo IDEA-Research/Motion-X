@@ -35,7 +35,7 @@ def findAllFile(base):
 
 def transform_motions(data):
 
-    ex_fps = 20
+    ex_fps = 30
 
     fps = 120
 
