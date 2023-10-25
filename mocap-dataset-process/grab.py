@@ -56,7 +56,7 @@ def transform_motions(data):
         pose_root = compute_canonical_transform(torch.from_numpy(pose_root)).detach().cpu().numpy()
         pose_body = data['body']['params']['body_pose'][fId:fId+1]
 
-
+        ### grab hand pose is 24 * 2 dim (after PCA), which is not compatible with our representation, thus use zeros here. ####
         pose_left_hand = np.zeros((1, 45))
         pose_right_hand = np.zeros((1, 45))
 
