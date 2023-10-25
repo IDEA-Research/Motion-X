@@ -27,7 +27,7 @@ for pair in orig_flip_pairs:
     left_chain.append(pair[0])
     right_chain.append(pair[1])
 
-smplx_model_path = './smplx/SMPLX_NEUTRAL.npz'
+smplx_model_path = './smplx/SMPLX_FEMALE.npz'
 smplx_model = SMPLX(smplx_model_path, num_betas=10, use_pca=False, use_face_contour=True, batch_size=1).cuda()
 
 def swap_left_right(data):
@@ -177,11 +177,11 @@ def face_z_align(pose):
 
 if __name__ == '__main__':
 
-    index_path = './humanml_index_debug.csv'
+    index_path = './humanml_index.csv'
     save_dir = './humanml'
     index_file = pd.read_csv(index_path)
     total_amount = index_file.shape[0]
-    ex_fps = 20
+    ex_fps = 30
 
     bad_count = 0
 
@@ -218,7 +218,7 @@ if __name__ == '__main__':
 
                 
 
-                pose = pose[int(start_frame):int(end_frame)]
+                pose = pose[int(start_frame*1.5):int(end_frame*1.5)]
             
             pose = process_pose(pose)
 
