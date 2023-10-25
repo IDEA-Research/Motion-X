@@ -27,7 +27,7 @@ for pair in orig_flip_pairs:
     left_chain.append(pair[0])
     right_chain.append(pair[1])
 
-smplx_model_path = './body_models/smplx/SMPLX_NEUTRAL.npz'
+smplx_model_path = './smplx/SMPLX_NEUTRAL.npz'
 smplx_model = SMPLX(smplx_model_path, num_betas=10, use_pca=False, use_face_contour=True, batch_size=1).cuda()
 
 def swap_left_right(data):
@@ -106,14 +106,12 @@ def get_smplx_322(data, ex_fps):
 
     for fId in range(0, frame_number, down_sample):
         pose_root = data['root_orient'][fId:fId+1]
-        pose_root = compute_canonical_transform(torch.from_numpy(pose_root)).detach().cpu().numpy()
         pose_body = data['pose_body'][fId:fId+1]
         pose_hand = data['pose_hand'][fId:fId+1]
         pose_jaw = data['pose_jaw'][fId:fId+1]
         pose_expression = np.zeros((1, 50))
         pose_face_shape = np.zeros((1, 100))
         pose_trans = data['trans'][fId:fId+1]
-        pose_trans = transform_translation(pose_trans)
         pose_body_shape = data['betas'][:10][None, :]
         pose = np.concatenate((pose_root, pose_body, pose_hand, pose_jaw, pose_expression, pose_face_shape, pose_trans, pose_body_shape), axis=1)
         pose_seq.append(pose)
@@ -122,6 +120,18 @@ def get_smplx_322(data, ex_fps):
     
 
     return pose_seq
+
+
+def process_pose(pose):
+    pose_root = pose[:, :3]
+    pose_root = compute_canonical_transform(torch.from_numpy(pose_root)).detach().cpu().numpy()
+    pose[:, :3] = pose_root
+    pose_trans = pose[:, 309:312]
+    pose_trans = transform_translation(pose_trans)
+    pose[:, 309:312] = pose_trans
+
+    return pose
+
 
 
 def face_z_align(pose):
@@ -163,13 +173,15 @@ def face_z_align(pose):
 
 
 
+
+
 if __name__ == '__main__':
 
-    index_path = './humanml_index.csv'
+    index_path = './humanml_index_debug.csv'
     save_dir = './humanml'
     index_file = pd.read_csv(index_path)
     total_amount = index_file.shape[0]
-    ex_fps = 30
+    ex_fps = 20
 
     bad_count = 0
 
@@ -189,29 +201,36 @@ if __name__ == '__main__':
             new_name = index_file.loc[i]['new_name']
             start_frame = index_file.loc[i]['start_frame']
             end_frame = index_file.loc[i]['end_frame']
-
-
+        
             pose = get_smplx_322(data, ex_fps)
-            pose = face_z_align(pose)
 
             if 'humanact12' not in source_path:
                 if 'Eyes_Japan_Dataset' in source_path:
-                    pose = pose[int(3*20):]
+                    pose = pose[int(3*ex_fps):]
                 if 'MPI_HDM05' in source_path:
-                    pose = pose[int(3*20):]
+                    pose = pose[int(3*ex_fps):]
                 if 'TotalCapture' in source_path:
-                    pose = pose[int(1*20):]
+                    pose = pose[int(1*ex_fps):]
                 if 'MPI_Limits' in source_path:
-                    pose = pose[int(1*20):]
+                    pose = pose[int(1*ex_fps):]
                 if 'Transitions_mocap' in source_path:
-                    pose = pose[int(0.5*20):]
-                pose = pose[start_frame:end_frame]
+                    pose = pose[int(0.5*ex_fps):]
+
+                
+
+                pose = pose[int(start_frame):int(end_frame)]
+            
+            pose = process_pose(pose)
+
+            pose = face_z_align(pose)
+
 
             if pose is None:
                 bad_count += 1
             np.save(pjoin(save_dir, new_name), pose)
             pose_mirror = swap_left_right(pose)
             np.save(pjoin(save_dir, 'M'+new_name), pose_mirror)
+            
         except:
             pass
 
