@@ -35,9 +35,9 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
 <summary>Download AMASS motions for Humanml3D.</summary>
 
   - Download [AMASS](https://amass.is.tue.mpg.de/download.php) motions. 
-  - Please download the AMASS data with `SMPL-X G`. If you use the SMPL-X data, please save them at `./datasets/amass_data/`. 
+  - Please download the AMASS data with `SMPL-X G`. If you use the SMPL-X data, please save them at `./amass_data/`. 
 
-  The `datasets/amass_data/` folder tree should be:
+  The `./amass_data/` folder tree should be:
 
 ```bash
   ./amass_data/
@@ -74,7 +74,7 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
   - Download [Egobody](https://egobody.ethz.ch/) motions. 
   - Please obey the Egobody dataset license and fill the form to get the download link.
 
-  The `datasets/EgoBody/` folder tree should be:
+  The `./EgoBody/` folder tree should be:
 ```bash
   ./EgoBody/
 
@@ -95,7 +95,7 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
   - Download [GRAB](https://grab.is.tue.mpg.de/download.php) motions. 
   - Please obey the GRAB dataset license.
 
-  The `datasets/EgoBody/` folder tree should be:
+  The `./GRAB/` folder tree should be:
 
   ```bash
   ./GRAB/
