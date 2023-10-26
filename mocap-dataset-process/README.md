@@ -166,7 +166,7 @@ mv GRAB_motion ../datasets/motion_data/smplx_322/GRAB
 </details> 
 
 <details>
-<summary>Move the processed text labels to ../datasets/semantic_labels</summary>
+<summary>Move the processed text labels to ../datasets/texts/semantic_labels</summary>
 
 
 ```bash
@@ -185,17 +185,17 @@ mv GRAB_txt ../datasets/texts/semantic_labels/GRAB
 ../datasets  
 
 ├──  motion_data
-	├── smplx_322
-		├── humanml
-		├── EgoBody
-		├── GRAB
-		├── idea400
-		├── ...
+  ├── smplx_322
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ├──  face_motion_data
-	├── smplx_322
-		├── humanml
-		├── EgoBody
-		├── GRAB
+  ├── smplx_322
+  ├── humanml
+  ├── EgoBody
+  ├── GRAB
 ├── texts
   ├──  semantic_labels
     ├── idea400
