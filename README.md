@@ -28,6 +28,10 @@ This repository contains the implementation of the following paper:
 > <sup>😎</sup>Equal contribution. <sup>
 1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
+## 🥳 News
+- [2023.10.26] We release the Motion-X-V1 with SMPL-X sequences and the corresponding semantic text labels, facial expression motions, and the corresponding texts for augmenting some motions without facial expressions. Please kindly check your email!
+- [2023.10.26] We release a high-quality monocular dataset named IDEA400 as a subset of Motion-X, which contains rich expressions and gestures. See this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for more details.
+
 ## 🥳 Highlight Motion Samples
 
 <img src="assets/overview.gif" width="100%">
