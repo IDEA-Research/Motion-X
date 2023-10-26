@@ -29,7 +29,7 @@ This repository contains the implementation of the following paper:
 1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
 ## 🥳 News
-- [2023.10.26] We release the Motion-X-V1 with SMPL-X sequences and the corresponding semantic text labels, facial expression motions, and the corresponding texts for augmenting some motions without facial expressions. Please kindly check your email!
+- [2023.10.26] We release the Motion-X-V1, which provide semantic text labels corresponding to SMPL-X sequences, facial expression motions, and the corresponding texts for augmenting some motions without facial expressions. Please kindly check your email!
 - [2023.10.26] We release a high-quality monocular dataset named IDEA400 as a subset of Motion-X, which contains rich expressions and gestures. See this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for more details.
 
 ## 🥳 Highlight Motion Samples
@@ -165,6 +165,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 </table>
 </div>
 
+
 ## 📥 Dataset Download
 
 We disseminate Motion-X in a manner that aligns with the original data sources. Here are the instructions:
@@ -226,6 +227,13 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
 
 - We do not distribute the original motion data. 
 - We only provide the text labels and facial expressions annotated by our team. 
+
+The AMASS and GRAB datasets are released for academic research under custom licenses by Max Planck Institute for Intelligent Systems.
+
+To download AMASS and GRAB, you must register as a user on the dataset websites and agree to the terms and conditions of each license:
+
+https://amass.is.tue.mpg.de/license.htm
+https://grab.is.tuebingen.mpg.de/license.html
 
 <details>
 <summary>Finally, the dataset folder is collected as the following directory structure:</summary>
