@@ -181,14 +181,14 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
 ../datasets  
 
 ├──  motion_data
-	├── smplx_322
-		├── idea400
-		├── ...
+  ├── smplx_322
+    ├── idea400
+    ├── ...
 ├──  face_motion_data
-	├── smplx_322
-		├── humanml
-		├── EgoBody
-		├── GRAB
+  ├── smplx_322
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
 ├── texts
   ├──  semantic_labels
     ├── idea400
@@ -231,12 +231,12 @@ https://grab.is.tuebingen.mpg.de/license.html
 ../datasets  
 
 ├──  motion_data
-	├── smplx_322
-		├── humanml
-		├── EgoBody
-		├── GRAB
-		├── idea400
-		├── ...
+  ├── smplx_322
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ├── texts
   ├──  semantic_labels
     ├── idea400
