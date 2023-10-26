@@ -228,9 +228,7 @@ For the mocap datasets (i.e., AMASS, GRAB, EgoBody), please refer to [this link]
 - We do not distribute the original motion data. 
 - We only provide the text labels and facial expressions annotated by our team. 
 
-The AMASS and GRAB datasets are released for academic research under custom licenses by Max Planck Institute for Intelligent Systems.
-
-To download AMASS and GRAB, you must register as a user on the dataset websites and agree to the terms and conditions of each license:
+The AMASS and GRAB datasets are released for academic research under custom licenses by Max Planck Institute for Intelligent Systems. To download AMASS and GRAB, you must register as a user on the dataset websites and agree to the terms and conditions of each license:
 
 https://amass.is.tue.mpg.de/license.html
 
