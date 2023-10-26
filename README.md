@@ -232,7 +232,8 @@ The AMASS and GRAB datasets are released for academic research under custom lice
 
 To download AMASS and GRAB, you must register as a user on the dataset websites and agree to the terms and conditions of each license:
 
-https://amass.is.tue.mpg.de/license.htm
+https://amass.is.tue.mpg.de/license.html
+
 https://grab.is.tuebingen.mpg.de/license.html
 
 <details>
