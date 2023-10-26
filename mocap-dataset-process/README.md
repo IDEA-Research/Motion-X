@@ -6,7 +6,7 @@
 pip install smplx
 ```
 
-# 🚀 How to prepare Mocap Data --Humanml3D, EgoBody, GRAB?
+# 🚀 How to prepare Mocap Data --AMASS, EgoBody, GRAB?
 
 ## 1. Data Preparing
 
@@ -208,5 +208,5 @@ EgoBody dataset:
 ```
 
 
-If you have any questions, please contact Shunlin Lu (shunlinlu0803 [AT] gmail [DOT] com).
+If you have any questions, please contact Shunlin Lu (shunlinlu0803 [AT] gmail [DOT] com) and Jing Lin (jinglin.stu [AT] gmail [DOT] com).
 
