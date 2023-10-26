@@ -156,10 +156,10 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr style="background-color: lightgray;">
     <td align="center"><b>Motion-X (Ours)</b></td>
-    <td align="center">96K</td>
+    <td align="center">81K</td>
     <td align="center">13.7M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">Motion-X Website</a></td>
-    <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs" target="_blank">Motion-X License</a></td>
+    <td align="center"><a href="https://motion-x-dataset.github.io/static/license/Motion-X%20License.pdf" target="_blank">Motion-X License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Motion-X Data</a>
   </tr>
 </table>
