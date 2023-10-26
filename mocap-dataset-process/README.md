@@ -124,6 +124,7 @@ In this step, we will process the Mocap datasets.
 Download `texts.zip` from [HumanML3D](https://github.com/EricGuo5513/HumanML3D) repo.
 
 ```bash
+unzip texts.zip -d humanml_txt
 python humanml.py
 ```
 </details>    
@@ -148,6 +149,76 @@ python grab.py
 ```
 </details> 
 
+## 3. Perform face motion augmentation
+
+In this step, we will perform face motion augmentation to replace the face motion, since these Mocap data does not provide facial expression. Notably, we keep the original jaw pose of GRAB dataset.
+
+<details>
+<summary>Move the processed motion data to ../datasets/motion_data/smplx_322</summary>
+
+
+```bash
+mv EgoBody_motion ../datasets/motion_data/smplx_322/EgoBody
+mv humanml ../datasets/motion_data/smplx_322/humanml
+mv GRAB_motion ../datasets/motion_data/smplx_322/GRAB
+```
+
+</details> 
+
+<details>
+<summary>Move the processed text labels to ../datasets/semantic_labels</summary>
+
+
+```bash
+mv EgoBody_txt ../datasets/texts/semantic_labels/EgoBody
+mv humanml_txt ../datasets/texts/semantic_labels/humanml
+mv GRAB_txt ../datasets/texts/semantic_labels/GRAB
+```
+
+</details> 
+
+<details>
+<summary>Now, the dataset folder is collected as the following directory structure:</summary>
+
+
+```  
+../datasets  
+
+├──  motion_data
+	├── smplx_322
+		├── humanml
+		├── EgoBody
+		├── GRAB
+		├── idea400
+		├── ...
+├──  face_motion_data
+	├── smplx_322
+		├── humanml
+		├── EgoBody
+		├── GRAB
+├── texts
+  ├──  semantic_labels
+    ├── idea400
+    ├── ...
+  ├──  face_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
+```
+
+</details>
+
+<details>
+<summary>Run face motion augmentation</summary>
+
+
+```bash
+python face_motion_augmentation.py
+```
+
+</details> 
 
 # 🤝🏼 Citation
 
