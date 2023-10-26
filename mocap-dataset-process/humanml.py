@@ -27,8 +27,9 @@ for pair in orig_flip_pairs:
     left_chain.append(pair[0])
     right_chain.append(pair[1])
 
-smplx_model_path = './smplx/SMPLX_FEMALE.npz'
-smplx_model = SMPLX(smplx_model_path, num_betas=10, use_pca=False, use_face_contour=True, batch_size=1).cuda()
+smplx_male_model_path = './smplx/SMPLX_MALE.npz'
+smplx_female_model_path = './smplx/SMPLX_FEMALE.npz'
+
 
 def swap_left_right(data):
 
@@ -134,7 +135,7 @@ def process_pose(pose):
 
 
 
-def face_z_align(pose):
+def face_z_align(pose, smplx_model):
     pose = torch.from_numpy(pose).float().cuda()
 
     param = {
@@ -177,7 +178,7 @@ def face_z_align(pose):
 
 if __name__ == '__main__':
 
-    index_path = './humanml_index.csv'
+    index_path = './humanml.csv'
     save_dir = './humanml'
     index_file = pd.read_csv(index_path)
     total_amount = index_file.shape[0]
@@ -198,6 +199,13 @@ if __name__ == '__main__':
             source_path = source_path.replace('_poses.npy', '_stageii.npz')
             source_path = source_path.replace(' ', '_')
             data = np.load(source_path)
+            gender = data['gender'].item()
+
+            if gender == 'male':
+                smplx_model = SMPLX(smplx_male_model_path, num_betas=10, use_pca=False, use_face_contour=True, batch_size=1).cuda()
+            elif gender == 'female':
+                smplx_model = SMPLX(smplx_female_model_path, num_betas=10, use_pca=False, use_face_contour=True, batch_size=1).cuda()
+                
             new_name = index_file.loc[i]['new_name']
             start_frame = index_file.loc[i]['start_frame']
             end_frame = index_file.loc[i]['end_frame']
@@ -222,7 +230,7 @@ if __name__ == '__main__':
             
             pose = process_pose(pose)
 
-            pose = face_z_align(pose)
+            pose = face_z_align(pose, smplx_model)
 
 
             if pose is None:
