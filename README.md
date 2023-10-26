@@ -178,38 +178,27 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
 <summary>Please collect them as the following directory structure: </summary>
 
 ```
-${ROOT}  
-|-- dataset  
-|   |-- motion_data
-|   |   |-- IDEA400
-|   |   |   |-- 000001.npy
-|   |   |-- ......
-|   |-- face_motion_data
-|   |   |-- HumanML3D
-|   |   |   |-- 000001.npy
-|   |   |-- EgoBody
-|   |   |   |-- 000001.npy
-|   |-- text_data
-|   |   |-- semantic_labels
-|   |   |   |-- HumanML3D
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- EgoBody
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- GRAB
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA400
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- ......
-|   |   |-- pose_descriptions
-|   |   |   |-- HumanML3D
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- EgoBody
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- GRAB
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA400
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- ......
+../datasets  
+
+├──  motion_data
+	├── smplx_322
+		├── idea400
+		├── ...
+├──  face_motion_data
+	├── smplx_322
+		├── humanml
+		├── EgoBody
+		├── GRAB
+├── texts
+  ├──  semantic_labels
+    ├── idea400
+    ├── ...
+  ├──  face_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ```
 
 </details>
@@ -235,47 +224,29 @@ https://amass.is.tue.mpg.de/license.html
 https://grab.is.tuebingen.mpg.de/license.html
 
 <details>
-<summary>Finally, the dataset folder is collected as the following directory structure:</summary>
+<summary>Finally, the datasets folder is collected as the following directory structure:</summary>
+
 
 ```  
-${ROOT}  
-|-- dataset  
-|   |-- motion_data
-|   |   |-- HumanML3D
-|   |   |   |-- 000001.npy
-|   |   |-- EgoBody
-|   |   |   |-- 000001.npy
-|   |   |-- GRAB
-|   |   |   |-- 000001.npy
-|   |   |-- IDEA400
-|   |   |   |-- 000001.npy
-|   |   |-- ......
-|   |-- face_motion_data
-|   |   |-- HumanML3D
-|   |   |   |-- 000001.npy
-|   |   |-- EgoBody
-|   |   |   |-- 000001.npy
-|   |-- text_data
-|   |   |-- semantic_labels
-|   |   |   |-- HumanML3D
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- EgoBody
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- GRAB
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA400
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- ......
-|   |   |-- pose_descriptions
-|   |   |   |-- HumanML3D
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- EgoBody
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- GRAB
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- IDEA400
-|   |   |   |   |-- 000001.txt
-|   |   |   |-- ......
+../datasets  
+
+├──  motion_data
+	├── smplx_322
+		├── humanml
+		├── EgoBody
+		├── GRAB
+		├── idea400
+		├── ...
+├── texts
+  ├──  semantic_labels
+    ├── idea400
+    ├── ...
+  ├──  face_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ```
 
 </details>
@@ -290,7 +261,7 @@ ${ROOT}
   import torch
   
   # read motion and save as smplx representation
-  motion = np.load('motion_data/000001.npy')
+  motion = np.load('motion_data/smplx_322/000001.npy')
   motion = torch.tensor(motion).float()
   motion_parms = {
               'root_orient': motion[:, :3],  # controls the global root orientation
@@ -304,10 +275,7 @@ ${ROOT}
           }
   
   # read text labels
-  semantic_text = np.loadtxt('texts/semantic_texts/000001.npy')     # semantic labels 
-  body_text = np.loadtxt('texts/body_texts/000001.txt')     # body pose description
-  hand_text = np.loadtxt('texts/hand_texts/000001.txt')     # hand pose description
-  face_text = np.loadtxt('texts/face_texts/000001.txt')     # facial expression
+  semantic_text = np.loadtxt('semantic_labels/000001.npy')     # semantic labels 
   ```
 
 ## 💻 Experiments  
