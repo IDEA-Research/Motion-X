@@ -136,7 +136,7 @@ python humanml.py
 The manually annotated text labels of Egobody dataset is provided at `egobody_description_all.csv`.
 
 ```bash
-python egobody.py
+python aist.py
 ```
 </details>    
     
