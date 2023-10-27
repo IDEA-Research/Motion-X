@@ -205,7 +205,7 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
 
 ### 2. Non-Mocap Subsets
 
-For the non-mocap subsets, please refer to [this link](https://github.com/IDEA-Research/Motion-X/tree/main/non-mocap-dataset-process), notably:
+For the non-mocap subsets, please refer to [this link](https://github.com/IDEA-Research/Motion-X/tree/main/non-mocap-dataset-process) for a detailed instruction, notably:
 
 - We do not distribute the original RGB videos. We provide the motion and text labels annotated by our team.
 - Due to license and quality consideration, we do not provide NTU-RGBD120. Instead, we build IDEA400, which includes 400 daily actions (covering NTU-RGBD120). Please refer to this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for a detailed introduction. 
