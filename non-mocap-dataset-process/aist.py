@@ -20,6 +20,4 @@ for motion_file in tqdm(motion_files):
     trans = trans/94.0
     trans[:, 2] = trans[:, 2] * (-1)
     motion[:, 309:309 + 3] = trans
-    sava_path = motion_file.replace('aist', 'aist++')
-    os.makedirs(os.path.dirname(sava_path), exist_ok=True)
-    np.save(sava_path, motion)
+    np.save(motion_file, motion)
