@@ -73,7 +73,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr>
     <td align="center"><b>AMASS</b></td>
     <td align="center">26K</td>
-    <td align="center">3.5M</td>
+    <td align="center">5.4M</td>
     <td align="center"><a href="https://amass.is.tue.mpg.de/" target="_blank">AMASS<br>Website</a></td>
     <td align="center"><a href="https://amass.is.tue.mpg.de/license.html" target="_blank">AMASS<br>License</a></td>
     <td align="center"><a href="https://amass.is.tue.mpg.de/login.php" target="_blank">AMASS Data</a></td>
@@ -91,7 +91,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr>
     <td align="center"><b>GRAB</b></td>
     <td align="center">1.3K</td>
-    <td align="center">1.6M</td>
+    <td align="center">0.4M</td>
     <td align="center"><a href="https://grab.is.tue.mpg.de/" target="_blank">GRAB<br>Website</a></td>
     <td align="center"><a href="https://grab.is.tue.mpg.de/license.html" target="_blank">GRAB<br>License</a></td>
     <td align="center"><a href="https://grab.is.tue.mpg.de/login.php" target="_blank">GRAB Data</a></td>
@@ -99,8 +99,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr>
     <td align="center"><b>IDEA400</b></td>
-    <td align="center">120K</td>
-    <td align="center">1.3M</td>
+    <td align="center">12.5K</td>
+    <td align="center">2.6M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">IDEA400<br>Website</a>
     <td align="center"><a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs" target="_blank">IDEA400 License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">IDEA400 Data</a>
@@ -110,7 +110,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr>
     <td align="center"><b>AIST++</b></td>
     <td align="center">1.4K</td>
-    <td align="center">1.1M</td>
+    <td align="center">0.3M</td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/" target="_blank">AIST++ <br>Website</a></td>
     <td align="center"><a href="https://google.github.io/aistplusplus_dataset/factsfigures.html" target="_blank">AIST++<br>License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">AIST++ Data</a>
@@ -118,8 +118,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr>
     <td align="center"><b>HAA500</b></td>
-    <td align="center">9.9K</td>
-    <td align="center">0.6M</td>
+    <td align="center">5.2K</td>
+    <td align="center">0.3M</td>
     <td align="center"><a href="https://www.cse.ust.hk/haa/" target="_blank">HAA500<br>Website</a></td>
     <td align="center"><a href="https://www.cse.ust.hk/haa/index.html" target="_blank">HAA500<br>License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">HAA500 Data</a>
@@ -127,8 +127,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr>
     <td align="center"><b>HuMMan</b></td>
-    <td align="center">0.9K</td>
-    <td align="center">0.2M</td>
+    <td align="center">0.7K</td>
+    <td align="center">0.1M</td>
     <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/" target="_blank">HuMMan<br>Website</a></td>
     <td align="center"><a href="https://caizhongang.github.io/projects/HuMMan/license.txt" target="_blank">HuMMan<br>License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">HuMMan Data</a>
@@ -146,8 +146,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr>
     <td align="center"><b>Online Videos</b></td>
-    <td align="center">15K</td>
-    <td align="center">3.4M</td>
+    <td align="center">32.5K</td>
+    <td align="center">6.0M</td>
     <td align="center">---</td>
     <td align="center">---</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Online Data</a>
@@ -156,8 +156,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
   <tr></tr>
   <tr style="background-color: lightgray;">
     <td align="center"><b>Motion-X (Ours)</b></td>
-    <td align="center">81K</td>
-    <td align="center">13.7M</td>
+    <td align="center">81.1K</td>
+    <td align="center">15.6M</td>
     <td align="center"><a href="https://motion-x-dataset.github.io/" target="_blank">Motion-X Website</a></td>
     <td align="center"><a href="https://motion-x-dataset.github.io/static/license/Motion-X%20License.pdf" target="_blank">Motion-X License</a></td>
     <td align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform" target="_blank">Motion-X Data</a>
