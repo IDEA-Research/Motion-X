@@ -172,7 +172,7 @@ We disseminate Motion-X in a manner that aligns with the original data sources. 
 
 ### 1. Request Authorization
 
-Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided downloading links.  
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided downloading links.  （Note: We updated the Baidu Disk link of motionx_seq_face_text.zip and motionx_face_motion.zip on October 29, 2023. Thus, if you download these zip files via Baidu Disk before October 29, please fill out [the form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) and download it again.）
 
 <details>
 <summary>Please collect them as the following directory structure: </summary>
