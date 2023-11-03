@@ -49,8 +49,8 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 **Labels from Motion-X:** 
 
-- Motion label: including `13.7M` whole-body poses and `96K` motion clips annotation, represented as SMPL-X parameters. 
-- Text label: (1) `13.7M` frame-level whole-body pose description and (2) `96K` sequence-level semantic labels.
+- Motion label: including `15.6M` whole-body poses and `81.1K` motion clips annotation, represented as SMPL-X parameters. 
+- Text label: (1) `15.6M` frame-level whole-body pose description and (2) `81.1K` sequence-level semantic labels.
 - Other modalities: RGB videos, audio, and music information.
 
 **Supported Tasks:**
