@@ -29,6 +29,7 @@ This repository contains the implementation of the following paper:
 1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
 ## 🥳 News
+- [2023.11.15] We release the rendered SMPL-X visualization of all subsets on [DDS](https://deepdataspace.com/dataset/motionx/home) platform for quick content viewing.
 - [2023.11.15] We release the [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO/tree/main) motion representation (`tomato` representation) and split files.
 - [2023.10.26] We release the Motion-X-V1, which provides semantic text labels corresponding to SMPL-X sequences, facial expression motions, and the corresponding texts for augmenting some motions without facial expressions. Please kindly check your email!
 - [2023.10.26] We release a high-quality monocular dataset named IDEA400 as a subset of Motion-X, which contains rich expressions and gestures. See this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for more details.
