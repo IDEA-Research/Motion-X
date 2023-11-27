@@ -59,9 +59,13 @@ python raw_pose_processing.py
 ```
 python motion_representation.py
 ```
-(3) visualization for checking. The output dimension of motions (one frame) should be 623. 
+(3) (a) visualization for checking. If you want to check the joint visualization (The input shape is b * frame * 52 * 3, which should be under folder new_joints), then you run the following line.
 ```
 python plot_3d_global.py
+```
+(3) (b) visualization for checking. If you want to check the 623-dim visualization (The input shape is b * frame * 623, which should be under the folder new_joints_vecs), then you run the following line.
+```
+python plot_feature.py
 ```
 
 # 🤝🏼 Citation
