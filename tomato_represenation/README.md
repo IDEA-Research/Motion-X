@@ -67,6 +67,15 @@ python plot_3d_global.py
 ```
 python plot_feature.py
 ```
+(4) If you want to use body-only motion, like humanml3d. please refer to motionx2humanml folder.
+```
+cd motionx2humanml
+python transfer_to_body_only_humanml.py
+```
+For visualization check, you can use the following code. 
+```
+python plot_feature.py
+```
 
 # 🤝🏼 Citation
 If you use the tomato format, please consider to cite us as: 
