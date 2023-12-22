@@ -29,10 +29,19 @@ This repository contains the implementation of the following paper:
 1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
 ## 🥳 News
+- [2023.12.22] We update the sequential motion text descriptions (text_v1.1) augmented by [Vicuna 1.5](https://lmsys.org/blog/2023-03-30-vicuna/) to enhance the standardization and diversity of text. Please download via [this link](https://drive.google.com/file/d/1DecnWjxM7d2uQKaHk_u5QQRALlNle_q_/view?usp=sharing) and replace it with the original file **motionx_seq_text.zip**. 
 - [2023.11.15] We release the rendered SMPL-X visualization of all subsets on [DDS](https://deepdataspace.com/dataset/motionx/home) platform for quick content viewing.
 - [2023.11.15] We release the [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO/tree/main) motion representation (`tomato` representation) and split files.
 - [2023.10.26] We release the Motion-X-V1, which provides semantic text labels corresponding to SMPL-X sequences, facial expression motions, and the corresponding texts for augmenting some motions without facial expressions. Please kindly check your email!
 - [2023.10.26] We release a high-quality monocular dataset named IDEA400 as a subset of Motion-X, which contains rich expressions and gestures. See this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for more details.
+
+## 📜 TODO
+- [ ] Release whole-body pose descriptions.
+- [ ] Gathering more motion datasets (e.g., music-to-dance, audio-to-gesture motions).
+- [ ] Release Videos after the agreement of video owners.
+- [ ] Release audio and music if motions are needed.
+      
+**Stay tuned!**
 
 ## 🥳 Highlight Motion Samples
 
