@@ -66,7 +66,22 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
     ├── TotalCapture
     └── Transitions_mocap
 ```
+For some datasets you may not find in AMASS website, please check the following renamed datasets. We ignore some subsets [here](https://github.com/IDEA-Research/Motion-X/blob/5c704ca2afc4e65defc96bf9a55580847f49365c/mocap-dataset-process/humanml.py#L193).
+
+```
+name_table = {
+    'BMLrub': 'BioMotionLab_NTroje',
+    'DFaust': 'DFaust_67',
+    'HDM05': 'MPI_HDM05',
+    'MoSh': 'MPI_mosh',
+    'PosePrior': 'MPI_Limits',
+    'SSM': 'SSM_synced',
+    'TCDHands': 'TCD_handMocap',
+    'Transitions': 'Transitions_mocap',
+}
+```
 </details>    
+
 
 <details>
 <summary>Download Egobody motions.</summary>
