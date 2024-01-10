@@ -30,7 +30,7 @@ This repository contains the implementation of the following paper:
 ><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen<sup>
 
 ## 🥳 News
-- [2024.1.9] We update the frame-level textual descriptions for each whole-body pose. Please download [here](https://drive.google.com/file/d/168ja-oBTHM0QDKFIcRriQFPew5gUlZkQ/view?usp=sharing). [PoseTEXT_README](https://github.com/IDEA-Research/Motion-X/blob/main/PoseText/PoseText_README.md).
+- [2024.1.9] We update the frame-level textual descriptions for each whole-body pose. Please download it [here](https://drive.google.com/file/d/168ja-oBTHM0QDKFIcRriQFPew5gUlZkQ/view?usp=sharing) and refer to this usage guidance[PoseTEXT_README](https://github.com/IDEA-Research/Motion-X/blob/main/PoseText/PoseText_README.md).
 - [2023.12.22] We update the sequential motion text descriptions (text_v1.1) augmented by [Vicuna 1.5](https://lmsys.org/blog/2023-03-30-vicuna/) to enhance the standardization and diversity of text. Please download via [this link](https://drive.google.com/file/d/1DecnWjxM7d2uQKaHk_u5QQRALlNle_q_/view?usp=sharing) and replace it with the original file **motionx_seq_text.zip**. Many thanks to [Linghao Chen](https://lhchen.top) for polishing the text labels!
 - [2023.11.15] We release the rendered SMPL-X visualization of all subsets on [DDS](https://deepdataspace.com/dataset/motionx/home) platform for quick content viewing.
 - [2023.11.15] We release the [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO/tree/main) motion representation (`tomato` representation) and split files.
@@ -62,7 +62,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 **Labels from Motion-X:** 
 
-- Motion label: including `15.6M` whole-body poses and `81.1K` motion clips annotation, represented as SMPL-X parameters. 
+- Motion label: including `15.6M` whole-body poses and `81.1K` motion clips annotation, represented as SMPL-X parameters. All motions have been unified in 30 fps.
 - Text label: (1) `15.6M` frame-level whole-body pose description and (2) `81.1K` sequence-level semantic labels.
 - Other modalities: RGB videos, audio, and music information.
 
