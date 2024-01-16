@@ -52,7 +52,6 @@ Download SMPL-X model from [SMPL-X_v1.1](https://smpl-x.is.tue.mpg.de/download.p
     ├── DFaust_67
     ├── EKUT
     ├── Eyes_Japan_Dataset
-    ├── GRAB
     ├── HUMAN4D
     ├── HumanEva
     ├── KIT
