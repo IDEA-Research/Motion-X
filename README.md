@@ -24,11 +24,13 @@
 </p>
 
 This repository contains the implementation of the following paper:
-> Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎13</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
-> <sup>😎</sup>Equal contribution. <sup>
-1</sup>International Digital Economy Academy <sup>2</sup> Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
+> Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎🤗1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎13</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
+> <sup>😎</sup>Equal contribution. <sup>🤗</sup>Corresponing author.<sup>
+> 
+><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen<sup>
 
 ## 🥳 News
+- [2024.1.9] We update the frame-level textual descriptions for each whole-body pose. Please download it [here](https://drive.google.com/file/d/168ja-oBTHM0QDKFIcRriQFPew5gUlZkQ/view?usp=sharing) and refer to this usage guidance [here](https://github.com/IDEA-Research/Motion-X/blob/main/PoseText/PoseText_README.md).
 - [2023.12.22] We update the sequential motion text descriptions (text_v1.1) augmented by [Vicuna 1.5](https://lmsys.org/blog/2023-03-30-vicuna/) to enhance the standardization and diversity of text. Please download via [this link](https://drive.google.com/file/d/1DecnWjxM7d2uQKaHk_u5QQRALlNle_q_/view?usp=sharing) and replace it with the original file **motionx_seq_text.zip**. Many thanks to [Linghao Chen](https://lhchen.top) for polishing the text labels!
 - [2023.11.15] We release the rendered SMPL-X visualization of all subsets on [DDS](https://deepdataspace.com/dataset/motionx/home) platform for quick content viewing.
 - [2023.11.15] We release the [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO/tree/main) motion representation (`tomato` representation) and split files.
@@ -36,7 +38,7 @@ This repository contains the implementation of the following paper:
 - [2023.10.26] We release a high-quality monocular dataset named IDEA400 as a subset of Motion-X, which contains rich expressions and gestures. See this [video](https://www.youtube.com/watch?v=QWoll6asFhE) for more details.
 
 ## 📜 TODO
-- [ ] Release whole-body pose descriptions.
+- [x] Release whole-body pose descriptions.
 - [ ] Gathering more motion datasets (e.g., music-to-dance, audio-to-gesture motions).
 - [ ] Release Videos after the agreement of video owners.
 - [ ] Release audio and music if motions are needed.
@@ -60,7 +62,7 @@ We propose a high-accuracy and efficient annotation pipeline for whole-body moti
 
 **Labels from Motion-X:** 
 
-- Motion label: including `15.6M` whole-body poses and `81.1K` motion clips annotation, represented as SMPL-X parameters. 
+- Motion label: including `15.6M` whole-body poses and `81.1K` motion clips annotation, represented as SMPL-X parameters. All motions have been unified in 30 fps.
 - Text label: (1) `15.6M` frame-level whole-body pose description and (2) `81.1K` sequence-level semantic labels.
 - Other modalities: RGB videos, audio, and music information.
 
@@ -183,9 +185,9 @@ We disseminate Motion-X in a manner that aligns with the original data sources. 
 
 ### 1. Request Authorization
 
-Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided downloading links.  （Note: We updated the Baidu Disk link of motionx_seq_face_text.zip and motionx_face_motion.zip on October 29, 2023. Thus, if you download these zips via Baidu Disk before October 29, please fill out [the form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) and download again.）
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) to request authorization to use Motion-X for non-commercial purposes. Then you will receive an email and please download the motion and text labels from the provided downloading links. The pose texts can be downloaded from [here](https://drive.google.com/file/d/168ja-oBTHM0QDKFIcRriQFPew5gUlZkQ/view?usp=sharing). Please extract the body_texts folder and hand_texts folder from the downloaded motionx_pose_text.zip.（Note: We updated the Baidu Disk link of motionx_seq_face_text.zip and motionx_face_motion.zip on October 29, 2023. Thus, if you download these zips via Baidu Disk before October 29, please fill out [the form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPxXWWjXr8cLFPAYd3ZHlWUtRDAzYoGvAKmS4uBlA/viewform) and download again.）
 
-<details>
+
 <summary>Please collect them as the following directory structure: </summary>
 
 ```
@@ -210,9 +212,21 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeb1DwnzGPx
     ├── GRAB
     ├── idea400
     ├── ...
+  ├──  body_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
+  ├──  hand_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ```
 
-</details>
+
 
 ### 2. Non-Mocap Subsets
 
@@ -234,7 +248,7 @@ https://amass.is.tue.mpg.de/license.html
 
 https://grab.is.tuebingen.mpg.de/license.html
 
-<details>
+
 <summary>Finally, the datasets folder is collected as the following directory structure:</summary>
 
 
@@ -258,9 +272,21 @@ https://grab.is.tuebingen.mpg.de/license.html
     ├── GRAB
     ├── idea400
     ├── ...
+  ├──  body_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
+  ├──  hand_texts
+    ├── humanml
+    ├── EgoBody
+    ├── GRAB
+    ├── idea400
+    ├── ...
 ```
 
-</details>
+
 
 ## 🚀  Data Loading 
 
