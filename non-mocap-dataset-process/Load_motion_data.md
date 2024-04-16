@@ -48,7 +48,7 @@ for aid in db.anns.keys():
 ### Load a global SMPL-X motion sequence for world-grounded whole-body motion capture from videos
 
 ```python
-smooth_fit_path = "/your/data/root/mesh_recovery/local_motion/Act_cute_and_sitting_at_the_same_time_clip1.json"
+smooth_fit_path = "/your/data/root/mesh_recovery/global_motion/Act_cute_and_sitting_at_the_same_time_clip1.json"
 db = COCO(smooth_fit_path)
 for aid in db.anns.keys():
     ann = db.anns[aid]
