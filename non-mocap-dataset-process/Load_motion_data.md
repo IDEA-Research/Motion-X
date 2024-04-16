@@ -1,6 +1,6 @@
 ## Load data for quick start
 
-### Load a motion sequence for generation
+### Load a SMPL-X motion sequence for whole-body motion generation
 
 ```python
 motion = np.load('/your/data/root/smplx_322/Act_cute_and_sitting_at_the_same_time_clip1.npy')
@@ -22,7 +22,7 @@ semantic_text = np.loadtxt('semantic_labels/000001.npy')     # semantic labels
 
 
 
-### Load a local motion sequence for mesh recovery
+### Load a local SMPL-X motion sequence for whole-body mesh recovery from videos or an image
 
 ```python
 annot_path = "/your/data/root/mesh_recovery/local_motion/Act_cute_and_sitting_at_the_same_time_clip1.json"
@@ -45,7 +45,7 @@ for aid in db.anns.keys():
 
 
 
-### Load a global motion sequence for mesh recovery
+### Load a global SMPL-X motion sequence for world-grounded whole-body motion capture from videos
 
 ```python
 smooth_fit_path = "/your/data/root/mesh_recovery/local_motion/Act_cute_and_sitting_at_the_same_time_clip1.json"
@@ -69,7 +69,7 @@ for aid in db.anns.keys():
 
 
 
-### Load a wholebody keypoints sequence
+### Load a whole-body keypoints sequence for 2D whole-body keypoint detection from videos or an image
 
 ```python
 kpt_annot_path = "/your/data/root/keypoints/Act_cute_and_sitting_at_the_same_time_clip1.json"
