@@ -317,6 +317,9 @@ https://grab.is.tuebingen.mpg.de/license.html
   semantic_text = np.loadtxt('semantic_labels/000001.npy')     # semantic labels 
   ```
 
+## 💻 Visualization
+We support the visualization from the camera space and world space, please refer to this [guidance](https://github.com/IDEA-Research/Motion-X/tree/main/visualization).
+
 ## 💻 Experiments  
 #### Validation of the motion annotation pipeline
 
