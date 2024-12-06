@@ -49,6 +49,12 @@ Please follow the instruction of [Motion-X](https://github.com/IDEA-Research/Mot
 
 </details>
 
+<details>
+<summary>Download processed tomato representation data</summary>
+We have uploaded the motion data processed using the latest version of Motion-X (smplx322 from the motion_generation directory), with the correct rotation applied, to the following link.
+链接：https://pan.baidu.com/s/1afh5KVZJTia-lg8e77MZ-Q?pwd=dzwt 
+提取码：dzwt 
+</details>
 
 ## 🔧 Data Processing
 (1) get joints positions
