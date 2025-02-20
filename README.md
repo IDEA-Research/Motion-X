@@ -362,4 +362,10 @@ If you find this repository useful for your work, please consider citing it as f
   journal={Advances in Neural Information Processing Systems},
   year={2023}
 }
+@article{zhang2025motion,
+  title={Motion-X++: A Large-Scale Multimodal 3D Whole-body Human Motion Dataset},
+  author={Zhang, Yuhong and Lin, Jing and Zeng, Ailing and Wu, Guanlin and Lu, Shunlin and Fu, Yurong and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
+  journal={arXiv preprint arXiv:2501.05098},
+  year={2025}
+}
 ```
