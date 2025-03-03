@@ -27,7 +27,7 @@
 </p>
 
 This repository contains the implementation of the following papers:
-> Motion-X++: A Large-Scale Multimodal 3D Whole-body Human Motion Dataset <br>[Yuhong Zhang](https://scholar.google.com/citations?user=oV7sxpYAAAAJ&hl=zh-CN)<sup>😎12</sup>, [Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎1</sup>, [Guanlin Wu](https://guanlinwu123.github.io)<sup>😎13</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎14</sup>, Yurong Fu<sup>2</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>3</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>4</sup>, <br>[Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>🤗2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>🤗1</sup><br>
+> Motion-X++: A Large-Scale Multimodal 3D Whole-body Human Motion Dataset <br>[Yuhong Zhang](https://scholar.google.com/citations?user=oV7sxpYAAAAJ&hl=zh-CN)<sup>😎12</sup>, [Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎1</sup>, [Guanlin Wu](https://guanlinwu123.github.io)<sup>😎13</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎14</sup>, Yurong Fu<sup>2</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>3</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>4</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>🤗2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>🤗1</sup><br>
 > <sup>😎</sup>Equal contribution. <sup>🤗</sup>Corresponing author.<sup>
 > 
 ><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>Johns Hopkins University <sup>4</sup>The Chinese University of Hong Kong, Shenzhen
