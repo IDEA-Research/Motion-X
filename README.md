@@ -4,7 +4,10 @@
 
 <p align="center">
   <a href='https://arxiv.org/abs/2307.00818'>
-    <img src='https://img.shields.io/badge/Arxiv-2307.00818-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+    <img src='https://img.shields.io/badge/Arxiv-Motion--X-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://arxiv.org/abs/2501.05098'>
+    <img src='https://img.shields.io/badge/Arxiv-Motion--X++-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <a href='https://arxiv.org/pdf/2307.00818pdf'>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
@@ -23,11 +26,17 @@
   </a>
 </p>
 
-This repository contains the implementation of the following paper:
+This repository contains the implementation of the following papers:
+> Motion-X++: A Large-Scale Multimodal 3D Whole-body Human Motion Dataset <br>[Yuhong Zhang](https://scholar.google.com/citations?user=oV7sxpYAAAAJ&hl=zh-CN)<sup>😎12</sup>, [Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎1</sup>, [Guanlin Wu](https://guanlinwu123.github.io)<sup>😎13</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎14</sup>, Yurong Fu<sup>2</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>3</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>4</sup>, <br>[Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>🤗2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>🤗1</sup><br>
+> <sup>😎</sup>Equal contribution. <sup>🤗</sup>Corresponing author.<sup>
+> 
+><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>Johns Hopkins University <sup>4</sup>The Chinese University of Hong Kong, Shenzhen
+
+
 > Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset <br>[Jing Lin](https://jinglin7.github.io/)<sup>😎12</sup>, [Ailing Zeng](https://ailingzeng.site/)<sup>😎🤗1</sup>, [Shunlin Lu](https://shunlinlu.github.io/)<sup>😎13</sup>, [Yuanhao Cai](https://github.com/caiyuanhao1998)<sup>2</sup>, [Ruimao Zhang](http://www.zhangruimao.site/)<sup>3</sup>, [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm)<sup>2</sup>, [Lei Zhang](https://www.leizhang.org/)<sup>1</sup><br>
 > <sup>😎</sup>Equal contribution. <sup>🤗</sup>Corresponing author.<sup>
 > 
-><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen<sup>
+><sup>1</sup>International Digital Economy Academy <sup>2</sup>Tsinghua University <sup>3</sup>The Chinese University of Hong Kong, Shenzhen
 
 ## 🥳 News
 - [2025.03.01] We have reorganized and fixed some issues of data for Motion-X++ and published the new data on [Huggingface](https://huggingface.co/datasets/YuhongZhang/Motion-Xplusplus), including the consistency of different modalities, adding generation motion TOMATO format directly.
@@ -357,16 +366,17 @@ Our annotation pipeline significantly surpasses existing SOTA 2D whole-body mode
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```  
-@article{lin2023motionx,
-  title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
-  author={Lin, Jing and Zeng, Ailing and Lu, Shunlin and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
-  journal={Advances in Neural Information Processing Systems},
-  year={2023}
-}
 @article{zhang2025motion,
   title={Motion-X++: A Large-Scale Multimodal 3D Whole-body Human Motion Dataset},
   author={Zhang, Yuhong and Lin, Jing and Zeng, Ailing and Wu, Guanlin and Lu, Shunlin and Fu, Yurong and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
   journal={arXiv preprint arXiv:2501.05098},
   year={2025}
 }
+@article{lin2023motionx,
+  title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
+  author={Lin, Jing and Zeng, Ailing and Lu, Shunlin and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
+  journal={Advances in Neural Information Processing Systems},
+  year={2023}
+}
+
 ```
